@@ -1,12 +1,13 @@
-import './App.css'
+import Aos from 'aos'
+import Header from './components/Header/Header'
 
 function App() {
+  Aos.init();
 
+  
   return (
     <>
-      <p className='text-red-400'>
-        Hola Pocki.
-      </p>
+      <Header />
     </>
   )
 }
