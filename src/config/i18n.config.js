@@ -2,52 +2,43 @@ import i18n from 'i18next';
 import { initReactI18next } from 'react-i18next';
 import LanguageDetector from 'i18next-browser-languagedetector';
 
+// Lenguajes (Languages)
+import esTranslation from '../../public/locales/es/es.json'; // Importar traducciones en español
+import enTranslation from '../../public/locales/en/en.json'; // Importar traducciones en inglés
+import frTranslation from '../../public/locales/fr/fr.json'; // Importar traducciones en francés
+import deTranslation from '../../public/locales/de/de.json'; // Importar traducciones en alemán
+import itTranslation from '../../public/locales/it/it.json'; // Importar traducciones en italiano
+import ptTranslation from '../../public/locales/pt/pt.json'; // Importar traducciones en portugués
+
 i18n
-    // detectar el idioma del usuario
-    // obtener más información: https://github.com/i18next/i18next-browser-languageDetector
     .use(LanguageDetector)
-    // pasar la instancia de i18n a react-i18next.
     .use(initReactI18next)
-    // inicializar i18next
-    // para todas las opciones, leer: https://www.i18next.com/overview/configuration-options
     .init({
-        debug: true,
-        fallbackLng: 'en',
+        debug: true, // Habilitar el modo de depuración
+        fallbackLng: 'en', // Idioma de respaldo si no se encuentra una traducción
         interpolation: {
-            escapeValue: false, // no es necesario para react ya que escapa por defecto
+            escapeValue: false,
         },
         resources: {
             en: {
-                translation: {
-                    // idioma ingles...
-                }
+                translation: enTranslation,
             },
-            es: {
-                translation: {
-                    // idioma español...
-                }
+            es: {   
+                translation: esTranslation,
             },
             fr: {
-                translation: {
-                    // idioma francés...
-                }
+                translation: frTranslation,
             },
             de: {
-                translation: {
-                    // idioma alemán...
-                }
+                translation: deTranslation,
             },
             it: {
-                translation: {
-                    // idioma italiano...
-                }
+                translation: itTranslation,
             },
             pt: {
-                translation: {
-                    // idioma portugués...
-                }
-            }
-        }
+                translation: ptTranslation,
+            },
+        },
     });
 
 export default i18n;

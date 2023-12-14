@@ -1,0 +1,14 @@
+{
+    "header": {
+        "logoAlt": "logo pocki",
+        "nav": {
+            "inicio": "home",
+            "servicios": "servizi",
+            "conocenos": "chi siamo",
+            "historia": "storia",
+            "contacto": "contatti"
+        },
+        "title": "pocki",
+        "contador": "interazioni"
+    }
+}
