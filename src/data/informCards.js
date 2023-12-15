@@ -1,7 +1,7 @@
-/* import { useTranslationHook } from "../hooks/useI18nTranslation"; */
+import { useTranslationHook } from "../hooks/useI18nTranslation";
 
 export function GetInfo() {
-    /* const { t } = useTranslationHook(); */
+    const { t } = useTranslationHook();
 
     const informCards = [
         {
@@ -9,8 +9,8 @@ export function GetInfo() {
             icon: "dollar", 
             background: "/assets/card-bg1.webp",
             img: "/assets/card-img1.webp",
-            title: "Servicios públicos", 
-            text: "Solo necesitarás foto del código de barras o referencia de pago de tu factura de servicios públicos", 
+            title: t("data.informCards.card1.titulo"), 
+            text: t("data.informCards.card1.texto"), 
             first: "0.60%", 
             second: "USD",
             link: ""
@@ -20,8 +20,8 @@ export function GetInfo() {
             icon: "euro", 
             background: "/assets/card-bg2.webp",
             img: "/assets/card-img2.webp",
-            title: "Compra de pines", 
-            text: "Podrás escoger entre una gran variedad de pines que tenemos para tí", 
+            title: t("data.informCards.card2.titulo"), 
+            text: t("data.informCards.card2.texto"),  
             first: "0.95%", 
             second: "EUR",
             link: ""
@@ -31,8 +31,8 @@ export function GetInfo() {
             icon: "credit-card", 
             background: "/assets/card-bg1.webp",
             img: "/assets/card-img1.webp",
-            title: "Recargas Móviles", 
-            text: "Recarga fácilmente tu celular en cualquier momento y lugar que desees.", 
+            title: t("data.informCards.card3.titulo"), 
+            text: t("data.informCards.card3.texto"), 
             first: "1.25%", 
             second: "USD",
             link: "https://wa.link/tqw2ey"
@@ -42,8 +42,8 @@ export function GetInfo() {
             icon: "shopping-cart", 
             background: "/assets/card-bg2.webp",
             img: "/assets/card-img2.webp",
-            title: "Compras en línea", 
-            text: "Realiza compras seguras en línea con nuestras tarjetas virtuales", 
+            title: t("data.informCards.card4.titulo"), 
+            text: t("data.informCards.card4.texto"),  
             first: "0.75%", 
             second: "USD",
             link: ""
@@ -53,8 +53,8 @@ export function GetInfo() {
             icon: "gift", 
             background: "/assets/card-bg1.webp",
             img: "/assets/card-img1.webp",
-            title: "Envío de dinero", 
-            text: "Envía dinero a tus seres queridos de forma rápida y segura", 
+            title: t("data.informCards.card5.titulo"), 
+            text: t("data.informCards.card5.texto"),  
             first: "0.50%", 
             second: "USD",
             link: ""
