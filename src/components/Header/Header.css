@@ -60,22 +60,6 @@
     overflow: visible !important;
   }
   
-/*   .contact-button::before {
-    width: 4.8rem;
-  }
-  
-  .main-button::before {
-    width: 3rem;
-  }
-  
-  .services-button::before {
-    width: 4.6rem;
-  }
-  
-  .history-button::before {
-    width: 4.2rem;
-  } */
-  
   .nav-li-button:hover::before {
     transform: scaleX(1);
   }
@@ -159,6 +143,15 @@
     .display-li:nth-child(5) {
       transform: translateX(0);
       transition-delay: 600ms;
+    }
+
+    .nav-button {
+      width: 100%;
+    }
+
+    .nav-li:hover, .nav-li-button:hover {
+      color: white;
+      transition: all 120ms ease-in-out;
     }
   
     .logo {
