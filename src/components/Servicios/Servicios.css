@@ -1,0 +1,55 @@
+.information-cont {
+  background-color: white;
+}
+
+.information {
+  box-shadow: 1px 0px 20px 13px rgba(0, 0, 0, 0.4);
+  background: linear-gradient(
+      317deg,
+      #ffd40061 -0.47%,
+      rgb(255 255 255 / 0%) 77%
+    ),
+    linear-gradient(11deg, #15731c 9.39%, rgba(104, 182, 132, 0) 83.29%),
+    linear-gradient(189deg, #025100, #000000);
+  border-bottom: 3px solid black;
+}
+
+.information:after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 90vh;
+  background-image: url(../../public/assets/bg-texture.png);
+  background-position: center;
+  background-size: 15rem;
+  left: 0;
+  z-index: 0;
+  mix-blend-mode: multiply;
+}
+
+.info {
+  z-index: 1;
+}
+
+.swiper-cont {
+  user-select: none;
+  pointer-events: none;
+}
+
+
+/* Responsive */
+
+
+@media (max-width: 768px) {
+  .information:after {
+    height: 90vh;
+  }
+}
+
+@media (min-width: 768px) {
+  .services-title {
+    transform: translateY(3rem) !important;
+  }
+}
+
+/* Responsive */

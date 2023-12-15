@@ -17,6 +17,28 @@
         "titulo": "Eficiencia Operacional",
         "texto": "POfrecemos nuestra experiencia tecnológica para abordar las necesidades empresariales. Evaluamos y proponemos soluciones a medida."
       }
+    },
+    "informCards": {
+      "card1": {
+        "titulo": "Servicios Públicos",
+        "texto": "Solo necesitarás foto del código de barras o referencia de pago de tu factura de servicios públicos."
+      },
+      "card2": {
+        "titulo": "Compra de pines",
+        "texto": "Podrás escoger entre una gran variedad de pines que tenemos para tí."
+      },
+      "card3": {
+        "titulo": "Recargas Móviles",
+        "texto": "Recarga fácilmente tu celular en cualquier momento y lugar que desees."
+      },
+      "card4": {
+        "titulo": "Compras en línea",
+        "texto": "Realiza compras seguras en línea con nuestras tarjetas virtuales."
+      },
+      "card5": {
+        "titulo": "Envío de dinero",
+        "texto": "Envía dinero a tus seres queridos de forma rápida y segura"
+      }
     }
   },
   "header": {
