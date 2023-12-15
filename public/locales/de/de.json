@@ -1,22 +1,47 @@
 {
-        "header": {
-            "logoAlt": "pocki logo",
-            "nav": {
-                "inicio": "Startseite",
-                "servicios": "Dienstleistungen",
-                "conocenos": "Über uns",
-                "historia": "Geschichte",
-                "contacto": "Kontakt"
-            },
-            "contador": "Interaktionen"
-        },
-
-        "inicio": {
-            "titulo": "Pocki, Ihr vertrauenswürdiger virtueller Assistent",
-            "subtitulo": "lernen Sie Ihren zukünftigen Assistenten kennen",
-            "texto": ", entdecken Sie das wahre Potenzial der",
-            "textoSpan1": "Einfach zu bedienen",
-            "textoSpan2": "Künstlichen Intelligenz.",
-            "cta": "Chatten Sie mit Pocki"
-        }
+  "data": {
+    "dataCards": {
+      "card1": {
+        "titulo": "Transaktionen",
+        "texto": "Wir erleichtern Transaktionen wie Überweisungen, Aufladungen, den Kauf von Mitgliedschaften, Sportwetten, Zertifikate und mehr, alles über Whatsapp."
+      },
+      "card2": {
+        "titulo": "Geschäftsdienstleistungen",
+        "texto": "Wir kümmern uns um Marketing- und Kommunikationsstrategien, um spezifische Zielgruppen bei Veranstaltungen wie Einführungen und Angeboten zu erreichen."
+      },
+      "card3": {
+        "titulo": "Unterstützungsdienste",
+        "texto": "Pocki beantwortet häufig gestellte Fragen zu Ihrem Geschäftsmodell und erleichtert die Interaktion mit Kunden durch “menschlichere” Gespräche effizient rund um die Uhr."
+      },
+      "card4": {
+        "titulo": "Operationale Effizienz",
+        "texto": "Wir bieten unsere technologische Expertise an, um Unternehmensbedürfnisse anzugehen. Wir evaluieren und schlagen maßgeschneiderte Lösungen vor."
+      }
     }
+  },
+  "header": {
+    "logoAlt": "pocki logo",
+    "nav": {
+      "inicio": "Startseite",
+      "servicios": "Dienstleistungen",
+      "conocenos": "Über uns",
+      "historia": "Geschichte",
+      "contacto": "Kontakt"
+    },
+    "contador": "Interaktionen"
+  },
+  "inicio": {
+    "titulo": "Pocki, Ihr vertrauenswürdiger virtueller Assistent",
+    "subtitulo": "lernen Sie Ihren zukünftigen Assistenten kennen",
+    "texto": ", entdecken Sie das wahre Potenzial der",
+    "textoSpan1": "Einfach zu bedienen",
+    "textoSpan2": "Künstlichen Intelligenz.",
+    "cta": "Chatten Sie mit Pocki"
+  },
+  "conocenos": {
+    "nombreSeccion": "Über uns",
+    "titulo": "Komfort, Personalisierung und außergewöhnlicher Service:",
+    "tituloSpan": "Deine einzigartige Erfahrung",
+    "texto": "Pocki führt nicht nur Finanztransaktionen durch, sondern bietet auch eine Reihe von Dienstleistungen basierend auf dem ständigen Lernen deiner Vorlieben und Verhaltensweisen an. Es geht um Komfort, Personalisierung, Service und außergewöhnliche Unterstützung."
+  }
+}

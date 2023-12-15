@@ -39,7 +39,6 @@ const Header = () => {
   };
 
   return (
-
     <>
       <header className="header-cont w-screen h-[4.1rem] fixed top-0 font-bold z-10">
         <nav className="header justify-around">
@@ -68,20 +67,20 @@ const Header = () => {
             </li>
             <li className={`nav-li ${isActive ? "display-li" : ""}`}>
               <a
-                className="nav-button nav-li-button services-button"
-                href="#servicios"
-                onClick={menuActions}
-              >
-                {t("header.nav.servicios")}
-              </a>
-            </li>
-            <li className={`nav-li ${isActive ? "display-li" : ""}`}>
-              <a
                 className="nav-button nav-li-button"
                 href="#conocenos"
                 onClick={menuActions}
               >
                 {t("header.nav.conocenos")}
+              </a>
+            </li>
+            <li className={`nav-li ${isActive ? "display-li" : ""}`}>
+              <a
+                className="nav-button nav-li-button services-button"
+                href="#servicios"
+                onClick={menuActions}
+              >
+                {t("header.nav.servicios")}
               </a>
             </li>
             <li className={`nav-li ${isActive ? "display-li" : ""}`}>

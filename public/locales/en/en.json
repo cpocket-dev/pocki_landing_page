@@ -1,22 +1,47 @@
 {
-        "header": {
-            "logoAlt": "pocki logo",
-            "nav": {
-                "inicio": "home",
-                "servicios": "services",
-                "conocenos": "about us",
-                "historia": "history",
-                "contacto": "contact"
-            },
-            "contador": "interactions"
-        },
-
-        "inicio": {
-            "titulo": "Pocki, Your Trusted Virtual Assistant",
-            "subtitulo": "meet your future assistant",
-            "texto": ", discover the true potential of",
-            "textoSpan1": "Easy to use",
-            "textoSpan2": "Artificial Intelligence.",
-            "cta": "Chat with Pocki"
-        }
+  "data": {
+    "dataCards": {
+      "card1": {
+        "titulo": "Transactions",
+        "texto": "We facilitate transactions like transfers, top-ups, membership purchases, sports betting, certificates, and more, all through Whatsapp."
+      },
+      "card2": {
+        "titulo": "Commercial Services",
+        "texto": "We handle marketing and communication strategies to connect with specific audiences at events such as launches and offers."
+      },
+      "card3": {
+        "titulo": "Assistance Services",
+        "texto": "Pocki resolves frequently asked questions about your business model and facilitates interaction with customers through “more human” conversations efficiently 24/7."
+      },
+      "card4": {
+        "titulo": "Operational Efficiency",
+        "texto": "We offer our technological expertise to address business needs. We assess and propose tailored solutions."
+      }
     }
+  },
+  "header": {
+    "logoAlt": "pocki logo",
+    "nav": {
+      "inicio": "home",
+      "servicios": "services",
+      "conocenos": "about us",
+      "historia": "history",
+      "contacto": "contact"
+    },
+    "contador": "interactions"
+  },
+  "inicio": {
+    "titulo": "Pocki, Your Trusted Virtual Assistant",
+    "subtitulo": "meet your future assistant",
+    "texto": ", discover the true potential of",
+    "textoSpan1": "Easy to use",
+    "textoSpan2": "Artificial Intelligence.",
+    "cta": "Chat with Pocki"
+  },
+  "conocenos": {
+    "nombreSeccion": "About Us",
+    "titulo": "Comfort, Personalization, and Exceptional Service:",
+    "tituloSpan": "Your Unique Experience",
+    "texto": "Pocki not only performs financial operations but also offers a range of services based on its constant learning of your preferences and behaviors. It's about comfort, personalization, service, and exceptional assistance."
+  }
+}
