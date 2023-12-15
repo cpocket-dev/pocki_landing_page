@@ -1,13 +1,22 @@
 {
-    "header": {
-        "logoAlt": "pocki logo",
-        "nav": {
-            "inicio": "Startseite",
-            "servicios": "Dienstleistungen",
-            "conocenos": "Über uns",
-            "historia": "Geschichte",
-            "contacto": "Kontakt"
+        "header": {
+            "logoAlt": "pocki logo",
+            "nav": {
+                "inicio": "Startseite",
+                "servicios": "Dienstleistungen",
+                "conocenos": "Über uns",
+                "historia": "Geschichte",
+                "contacto": "Kontakt"
+            },
+            "contador": "Interaktionen"
         },
-        "contador": "interaktionen"
+
+        "inicio": {
+            "titulo": "Pocki, Ihr vertrauenswürdiger virtueller Assistent",
+            "subtitulo": "lernen Sie Ihren zukünftigen Assistenten kennen",
+            "texto": ", entdecken Sie das wahre Potenzial der",
+            "textoSpan1": "Einfach zu bedienen",
+            "textoSpan2": "Künstlichen Intelligenz.",
+            "cta": "Chatten Sie mit Pocki"
+        }
     }
-}

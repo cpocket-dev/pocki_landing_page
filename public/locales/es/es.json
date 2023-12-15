@@ -9,5 +9,14 @@
         "contacto": "Contacto"
       },
       "contador": "interacciones"
+    },
+
+    "inicio": {
+      "titulo": "Pocki, Tu asistente virtual de confianza",
+      "subtitulo": "conoce tu futuro asistente",
+      "texto": ", descubre el verdadero potencial de la",
+      "textoSpan1": "Fácil de manejar",
+      "textoSpan2": "Inteligencia Artificial.",
+      "cta": "Chatea con Pocki"
     }
   }
