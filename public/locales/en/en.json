@@ -17,6 +17,28 @@
         "titulo": "Operational Efficiency",
         "texto": "We offer our technological expertise to address business needs. We assess and propose tailored solutions."
       }
+    },
+    "informCards": {
+      "card1": {
+        "titulo": "Public Services",
+        "texto": "You will only need a photo of the barcode or payment reference of your public services bill."
+      },
+      "card2": {
+        "titulo": "Pin Purchase",
+        "texto": "You can choose from a wide variety of pins that we have for you."
+      },
+      "card3": {
+        "titulo": "Mobile Recharges",
+        "texto": "Easily recharge your mobile phone anytime and anywhere you want."
+      },
+      "card4": {
+        "titulo": "Online Shopping",
+        "texto": "Make secure online purchases with our virtual cards."
+      },
+      "card5": {
+        "titulo": "Money Transfer",
+        "texto": "Send money to your loved ones quickly and securely."
+      }
     }
   },
   "header": {

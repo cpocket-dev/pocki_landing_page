@@ -17,6 +17,28 @@
         "titulo": "Operationale Effizienz",
         "texto": "Wir bieten unsere technologische Expertise an, um Unternehmensbedürfnisse anzugehen. Wir evaluieren und schlagen maßgeschneiderte Lösungen vor."
       }
+    },
+    "informCards": {
+      "card1": {
+          "titulo": "Öffentliche Dienstleistungen",
+          "texto": "Du benötigst nur ein Foto des Barcode oder die Referenznummer deiner Rechnung für öffentliche Dienstleistungen."
+      },
+      "card2": {
+          "titulo": "Pin-Kauf",
+          "texto": "Du kannst aus einer Vielzahl von Pins wählen, die wir für dich haben."
+      },
+      "card3": {
+          "titulo": "Handyaufladungen",
+          "texto": "Lade dein Handy einfach und bequem jederzeit und überall auf, wo du möchtest."
+      },
+      "card4": {
+          "titulo": "Online-Einkäufe",
+          "texto": "Tätige sichere Online-Einkäufe mit unseren virtuellen Karten."
+      },
+      "card5": {
+          "titulo": "Geldüberweisung",
+          "texto": "Sende schnell und sicher Geld an deine Liebsten."
+      }
     }
   },
   "header": {

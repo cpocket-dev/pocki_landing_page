@@ -17,6 +17,28 @@
         "titulo": "Efficienza Operativa",
         "texto": "Offriamo la nostra esperienza tecnologica per affrontare le esigenze aziendali. Valutiamo e proponiamo soluzioni su misura."
       }
+    },
+    "informCards": {
+      "card1": {
+        "titulo": "Servizi Pubblici",
+        "texto": "Ti basterà una foto del codice a barre o il riferimento del pagamento della tua bolletta dei servizi pubblici."
+      },
+      "card2": {
+        "titulo": "Acquisto di codici",
+        "texto": "Potrai scegliere tra una vasta gamma di codici che abbiamo per te."
+      },
+      "card3": {
+        "titulo": "Ricariche Cellulari",
+        "texto": "Ricarica facilmente il tuo cellulare in qualsiasi momento e luogo tu desideri."
+      },
+      "card4": {
+        "titulo": "Acquisti Online",
+        "texto": "Effettua acquisti sicuri online con le nostre carte virtuali."
+      },
+      "card5": {
+        "titulo": "Invio di denaro",
+        "texto": "Invia denaro ai tuoi cari in modo rapido e sicuro."
+      }
     }
   },
   "header": {

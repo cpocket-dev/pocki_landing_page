@@ -54,7 +54,7 @@ export const Servicios = () => {
             spaceBetween={20}
             modules={[Autoplay]}
             autoplay={{
-              delay: 3000,
+              delay: 3600,
               disableOnInteraction: false,
             }}
             className="swiper-cont swiper-cont w-full md:w-[100%] md:min-w-[18rem] rounded-xl"

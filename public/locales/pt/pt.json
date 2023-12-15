@@ -17,6 +17,28 @@
         "titulo": "Eficiência Operacional",
         "texto": "Oferecemos a nossa experiência tecnológica para abordar as necessidades empresariais. Avaliamos e propomos soluções à medida."
       }
+    },
+    "informCards": {
+      "card1": {
+          "titulo": "Serviços Públicos",
+          "texto": "Apenas precisará da foto do código de barras ou referência de pagamento da sua fatura de serviços públicos."
+      },
+      "card2": {
+          "titulo": "Compra de PINs",
+          "texto": "Pode escolher entre uma grande variedade de PINs que temos para si."
+      },
+      "card3": {
+          "titulo": "Recargas para Telemóveis",
+          "texto": "Recarregue facilmente o seu telemóvel a qualquer momento e lugar que deseje."
+      },
+      "card4": {
+          "titulo": "Compras Online",
+          "texto": "Realize compras seguras online com os nossos cartões virtuais."
+      },
+      "card5": {
+          "titulo": "Envio de Dinheiro",
+          "texto": "Envie dinheiro aos seus entes queridos de forma rápida e segura."
+      }
     }
   },
   "header": {

@@ -17,7 +17,29 @@
         "titulo": "Efficacité Opérationnelle",
         "texto": "Nous offrons notre expertise technologique pour répondre aux besoins des entreprises. Nous évaluons et proposons des solutions sur mesure."
       }
-    }
+    },
+    "informCards": {
+      "card1": {
+        "titulo": "Services publics",
+        "texto": "Vous aurez seulement besoin de la photo du code-barres ou de la référence de paiement de votre facture de services publics."
+      },
+      "card2": {
+        "titulo": "Achat de codes PIN",
+        "texto": "Vous pourrez choisir parmi une grande variété de codes PIN que nous avons pour vous."
+      },
+      "card3": {
+        "titulo": "Recharges mobiles",
+        "texto": "Rechargez facilement votre téléphone portable à tout moment et où que vous soyez."
+      },
+      "card4": {
+        "titulo": "Achats en ligne",
+        "texto": "Effectuez des achats sécurisés en ligne avec nos cartes virtuelles."
+      },
+      "card5": {
+        "titulo": "Transfert d'argent",
+        "texto": "Envoyez de l'argent à vos proches de manière rapide et sécurisée."
+      }
+    }    
   },
   "header": {
     "logoAlt": "logo pocki",
