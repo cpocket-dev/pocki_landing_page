@@ -7,7 +7,7 @@ const Inicio = () => {
   const { t } = useTranslationHook();
 
   return (
-    <main className="main-cont" id="main">
+    <main className="main-cont mb-12" id="main">
       <div className="main lg:flex-row lg:h-[70%]">
         <div className="main-image main-section lg:w-[30%]">
           <div
