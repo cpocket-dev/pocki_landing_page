@@ -5,8 +5,11 @@ import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
 import { GetInfo } from "../../data/informCards";
+import { useTranslationHook } from "../../hooks/useI18nTranslation";
 
 export const Servicios = () => {
+
+  const { t } = useTranslationHook();
 
   const informCards = GetInfo();
 
@@ -22,7 +25,7 @@ export const Servicios = () => {
           data-aos="fade-left"
           data-aos-once="true"
         >
-          Servicios
+          {t("servicios.nombreSeccion")}
         </h2>
         <div className="info overflow-visible gap-4 flex-col md:flex-row w-[95dvw] md:w-[70vw] my-auto flex items-center content-center justify-center pb-4">
           <div className="md:min-w-[23rem] flex flex-col mx-auto items-center overflow-hidden justify-center content-center w-[full]">
@@ -31,8 +34,8 @@ export const Servicios = () => {
               data-aos="fade-left"
               data-aos-once="true"
             >
-              Te invitamos a conocer las facilidades que <br></br>
-              <span className="text-green-500">Pocki trae para tí.</span>
+              {t("servicios.titulo")} <br></br>
+              <span className="text-green-500">{t("servicios.tituloSpan")}.</span>
             </h2>
             <p
               className="md:px-6 w-full text-base text-gray-200 text-center overflow-y-hidden"
@@ -40,10 +43,7 @@ export const Servicios = () => {
               data-aos-once="true"
               data-aos-delay="200"
             >
-              {" "}
-              Nuestro asistente virtual ofrece eficiencia y precisión en tareas
-              diarias, programación de citas, recordatorios y mucho más,
-              mejorando así su productividad!{" "}
+              {t("servicios.texto")}
             </p>
           </div>
 

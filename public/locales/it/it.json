@@ -3,40 +3,40 @@
     "dataCards": {
       "card1": {
         "titulo": "Transazioni",
-        "texto": "Facilitiamo transazioni come trasferimenti, ricariche, acquisti di abbonamenti, scommesse sportive, certificati e altro, tutto da Whatsapp."
+        "texto": "Facilitiamo transazioni come trasferimenti, ricariche, acquisto di abbonamenti, scommesse sportive, certificati e altro ancora, tutto da WhatsApp."
       },
       "card2": {
         "titulo": "Servizi Commerciali",
         "texto": "Ci occupiamo di strategie di marketing e comunicazione per connetterci con pubblici specifici in eventi come lanci e offerte."
       },
       "card3": {
-        "titulo": "Servizi di Assistenza",
-        "texto": "Pocki risolve domande frequenti relative al vostro modello di business e facilita l'interazione con i clienti attraverso conversazioni 'più umane' in modo efficiente 24/7."
+        "titulo": "Servizi Assistenziali",
+        "texto": "Pocki risponde alle domande frequenti sul tuo modello di business e facilita l'interazione con i clienti con conversazioni 'più umane' in modo efficiente 24/7."
       },
       "card4": {
         "titulo": "Efficienza Operativa",
-        "texto": "Offriamo la nostra esperienza tecnologica per affrontare le esigenze aziendali. Valutiamo e proponiamo soluzioni su misura."
+        "texto": "Offriamo la nostra esperienza tecnologica per affrontare le esigenze aziendali. Valutiamo e proponiamo soluzioni personalizzate."
       }
     },
     "informCards": {
       "card1": {
         "titulo": "Servizi Pubblici",
-        "texto": "Ti basterà una foto del codice a barre o il riferimento del pagamento della tua bolletta dei servizi pubblici."
+        "texto": "Avrai solo bisogno di una foto del codice a barre o del riferimento di pagamento della tua bolletta dei servizi pubblici."
       },
       "card2": {
-        "titulo": "Acquisto di codici",
-        "texto": "Potrai scegliere tra una vasta gamma di codici che abbiamo per te."
+        "titulo": "Acquisto di Pin",
+        "texto": "Potrai scegliere tra una vasta varietà di pin che abbiamo per te."
       },
       "card3": {
-        "titulo": "Ricariche Cellulari",
-        "texto": "Ricarica facilmente il tuo cellulare in qualsiasi momento e luogo tu desideri."
+        "titulo": "Ricariche Mobili",
+        "texto": "Ricarica facilmente il tuo cellulare in qualsiasi momento e luogo."
       },
       "card4": {
         "titulo": "Acquisti Online",
-        "texto": "Effettua acquisti sicuri online con le nostre carte virtuali."
+        "texto": "Effettua acquisti online in sicurezza con le nostre carte virtuali."
       },
       "card5": {
-        "titulo": "Invio di denaro",
+        "titulo": "Invio di Denaro",
         "texto": "Invia denaro ai tuoi cari in modo rapido e sicuro."
       }
     }
@@ -44,26 +44,32 @@
   "header": {
     "logoAlt": "logo di pocki",
     "nav": {
-      "inicio": "inizio",
+      "inicio": "home",
       "servicios": "servizi",
-      "conocenos": "conosci",
+      "conocenos": "conoscici",
       "historia": "storia",
       "contacto": "Contatto"
     },
     "contador": "interazioni"
   },
   "inicio": {
-    "titulo": "Pocki, il tuo assistente virtuale di fiducia",
-    "subtitulo": "scopri il tuo futuro assistente",
+    "titulo": "Pocki, il tuo Assistente Virtuale di Fiducia",
+    "subtitulo": "incontra il tuo futuro assistente",
     "texto": ", scopri il vero potenziale della",
-    "textoSpan1": "Facile da gestire",
+    "textoSpan1": "Facile da Gestire",
     "textoSpan2": "Intelligenza Artificiale.",
     "cta": "Chatta con Pocki"
   },
   "conocenos": {
-    "nombreSeccion": "Conosci",
+    "nombreSeccion": "Conoscici",
     "titulo": "Comodità, personalizzazione e servizio eccezionale:",
-    "tituloSpan": "La tua esperienza unica",
-    "texto": "Pocki non si occupa solo di operazioni finanziarie, ma offre anche una serie di servizi basati sul suo apprendimento costante delle tue preferenze e comportamenti. Si tratta di comodità, personalizzazione, servizio e assistenza eccezionali."
+    "tituloSpan": "La tua Esperienza Unica",
+    "texto": "Pocki non si limita a eseguire operazioni finanziarie, ma offre anche un insieme di servizi basati sul suo costante apprendimento delle tue preferenze e comportamenti. Si tratta di comodità, personalizzazione, servizio e assistenza eccezionali."
+  },
+  "servicios": {
+    "nombreSeccion": "Servizi",
+    "titulo": "Ti invitiamo a scoprire le facilitazioni che",
+    "tituloSpan": "Pocki porta per te",
+    "texto": "Il nostro assistente virtuale offre efficienza e precisione nelle attività quotidiane, nella programmazione di appuntamenti, nei promemoria e molto altro, migliorando così la tua produttività!"
   }
 }

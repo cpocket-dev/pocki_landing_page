@@ -3,46 +3,46 @@
     "dataCards": {
       "card1": {
         "titulo": "Transações",
-        "texto": "Facilitamos transações como transferências, recargas, compra de membros, apostas desportivas, certificados e muito mais, tudo através do Whatsapp."
+        "texto": "Facilitamos transações como transferências, recargas, compra de membrosias, apostas esportivas, certificados e mais, tudo pelo WhatsApp."
       },
       "card2": {
         "titulo": "Serviços Comerciais",
-        "texto": "Encarregamo-nos de estratégias de marketing e comunicação para conectar com públicos específicos em eventos como lançamentos e ofertas."
+        "texto": "Cuidamos de estratégias de marketing e comunicação para conectar com públicos específicos em eventos como lançamentos e ofertas."
       },
       "card3": {
-        "titulo": "Serviços de Assistência",
-        "texto": "O Pocki resolve perguntas frequentes do seu modelo de negócio e facilita a interação com clientes através de conversas 'mais humanas' de forma eficiente 24/7."
+        "titulo": "Serviços Assistenciais",
+        "texto": "Pocki resolve perguntas frequentes sobre seu modelo de negócio e facilita a interação com clientes com conversas 'mais humanas' de maneira eficiente 24/7."
       },
       "card4": {
         "titulo": "Eficiência Operacional",
-        "texto": "Oferecemos a nossa experiência tecnológica para abordar as necessidades empresariais. Avaliamos e propomos soluções à medida."
+        "texto": "Oferecemos nossa experiência tecnológica para atender às necessidades empresariais. Avaliamos e propomos soluções sob medida."
       }
     },
     "informCards": {
       "card1": {
-          "titulo": "Serviços Públicos",
-          "texto": "Apenas precisará da foto do código de barras ou referência de pagamento da sua fatura de serviços públicos."
+        "titulo": "Serviços Públicos",
+        "texto": "Você só precisará de uma foto do código de barras ou referência de pagamento da sua fatura de serviços públicos."
       },
       "card2": {
-          "titulo": "Compra de PINs",
-          "texto": "Pode escolher entre uma grande variedade de PINs que temos para si."
+        "titulo": "Compra de Pins",
+        "texto": "Você poderá escolher entre uma grande variedade de pins que temos para você."
       },
       "card3": {
-          "titulo": "Recargas para Telemóveis",
-          "texto": "Recarregue facilmente o seu telemóvel a qualquer momento e lugar que deseje."
+        "titulo": "Recargas Móveis",
+        "texto": "Recarregue facilmente seu celular a qualquer momento e lugar que desejar."
       },
       "card4": {
-          "titulo": "Compras Online",
-          "texto": "Realize compras seguras online com os nossos cartões virtuais."
+        "titulo": "Compras Online",
+        "texto": "Faça compras online seguras com nossos cartões virtuais."
       },
       "card5": {
-          "titulo": "Envio de Dinheiro",
-          "texto": "Envie dinheiro aos seus entes queridos de forma rápida e segura."
+        "titulo": "Envio de Dinheiro",
+        "texto": "Envie dinheiro para seus entes queridos de forma rápida e segura."
       }
     }
   },
   "header": {
-    "logoAlt": "logotipo pocki",
+    "logoAlt": "logo da pocki",
     "nav": {
       "inicio": "início",
       "servicios": "serviços",
@@ -53,17 +53,23 @@
     "contador": "interações"
   },
   "inicio": {
-    "titulo": "Pocki, Seu assistente virtual de confiança",
+    "titulo": "Pocki, Seu Assistente Virtual de Confiança",
     "subtitulo": "conheça seu futuro assistente",
     "texto": ", descubra o verdadeiro potencial da",
-    "textoSpan1": "Fácil de usar",
+    "textoSpan1": "Fácil de Manusear",
     "textoSpan2": "Inteligência Artificial.",
     "cta": "Converse com Pocki"
   },
   "conocenos": {
     "nombreSeccion": "Conheça-nos",
     "titulo": "Conforto, personalização e serviço excepcional:",
-    "tituloSpan": "Sua experiência única",
-    "texto": "Pocki não apenas realiza operações financeiras, mas também oferece um conjunto de serviços com base em sua aprendizagem contínua de suas preferências e comportamentos. Trata-se de conforto, personalização, serviço e assistência excepcionais"
+    "tituloSpan": "Sua Experiência Única",
+    "texto": "Pocki não realiza apenas operações financeiras, mas também oferece um conjunto de serviços baseados no seu aprendizado constante de suas preferências e comportamentos. Trata-se de conforto, personalização, serviço e assistência excepcionais."
+  },
+  "servicios": {
+    "nombreSeccion": "Serviços",
+    "titulo": "Convidamos você a conhecer as facilidades que",
+    "tituloSpan": "Pocki traz para você",
+    "texto": "Nosso assistente virtual oferece eficiência e precisão em tarefas diárias, programação de compromissos, lembretes e muito mais, melhorando assim a sua produtividade!"
   }
 }

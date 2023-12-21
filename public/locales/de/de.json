@@ -3,50 +3,50 @@
     "dataCards": {
       "card1": {
         "titulo": "Transaktionen",
-        "texto": "Wir erleichtern Transaktionen wie Überweisungen, Aufladungen, den Kauf von Mitgliedschaften, Sportwetten, Zertifikate und mehr, alles über Whatsapp."
+        "texto": "Wir erleichtern Transaktionen wie Überweisungen, Aufladungen, Mitgliedschaftskäufe, Sportwetten, Zertifikate und mehr, alles über WhatsApp."
       },
       "card2": {
         "titulo": "Geschäftsdienstleistungen",
-        "texto": "Wir kümmern uns um Marketing- und Kommunikationsstrategien, um spezifische Zielgruppen bei Veranstaltungen wie Einführungen und Angeboten zu erreichen."
+        "texto": "Wir kümmern uns um Marketing- und Kommunikationsstrategien, um bei Veranstaltungen wie Produkteinführungen und Angeboten spezifische Zielgruppen anzusprechen."
       },
       "card3": {
-        "titulo": "Unterstützungsdienste",
-        "texto": "Pocki beantwortet häufig gestellte Fragen zu Ihrem Geschäftsmodell und erleichtert die Interaktion mit Kunden durch “menschlichere” Gespräche effizient rund um die Uhr."
+        "titulo": "Hilfsdienste",
+        "texto": "Pocki beantwortet häufig gestellte Fragen zu Ihrem Geschäftsmodell und erleichtert die Interaktion mit Kunden durch effiziente, 'menschlichere' Gespräche rund um die Uhr."
       },
       "card4": {
-        "titulo": "Operationale Effizienz",
-        "texto": "Wir bieten unsere technologische Expertise an, um Unternehmensbedürfnisse anzugehen. Wir evaluieren und schlagen maßgeschneiderte Lösungen vor."
+        "titulo": "Betriebliche Effizienz",
+        "texto": "Wir bieten unsere technologische Erfahrung an, um geschäftliche Anforderungen zu adressieren. Wir bewerten und schlagen maßgeschneiderte Lösungen vor."
       }
     },
     "informCards": {
       "card1": {
-          "titulo": "Öffentliche Dienstleistungen",
-          "texto": "Du benötigst nur ein Foto des Barcode oder die Referenznummer deiner Rechnung für öffentliche Dienstleistungen."
+        "titulo": "Öffentliche Dienstleistungen",
+        "texto": "Sie benötigen nur ein Foto des Strichcodes oder der Zahlungsreferenz Ihrer Versorgungsrechnung."
       },
       "card2": {
-          "titulo": "Pin-Kauf",
-          "texto": "Du kannst aus einer Vielzahl von Pins wählen, die wir für dich haben."
+        "titulo": "Pin-Kauf",
+        "texto": "Sie können aus einer großen Auswahl an Pins wählen, die wir für Sie haben."
       },
       "card3": {
-          "titulo": "Handyaufladungen",
-          "texto": "Lade dein Handy einfach und bequem jederzeit und überall auf, wo du möchtest."
+        "titulo": "Handy-Aufladungen",
+        "texto": "Laden Sie Ihr Handy jederzeit und überall einfach auf."
       },
       "card4": {
-          "titulo": "Online-Einkäufe",
-          "texto": "Tätige sichere Online-Einkäufe mit unseren virtuellen Karten."
+        "titulo": "Online-Einkäufe",
+        "texto": "Tätigen Sie sichere Online-Einkäufe mit unseren virtuellen Karten."
       },
       "card5": {
-          "titulo": "Geldüberweisung",
-          "texto": "Sende schnell und sicher Geld an deine Liebsten."
+        "titulo": "Geldtransfer",
+        "texto": "Senden Sie schnell und sicher Geld an Ihre Liebsten."
       }
     }
   },
   "header": {
-    "logoAlt": "pocki logo",
+    "logoAlt": "Pocki-Logo",
     "nav": {
       "inicio": "Startseite",
       "servicios": "Dienstleistungen",
-      "conocenos": "Über uns",
+      "conocenos": "Lernen Sie uns kennen",
       "historia": "Geschichte",
       "contacto": "Kontakt"
     },
@@ -63,7 +63,13 @@
   "conocenos": {
     "nombreSeccion": "Über uns",
     "titulo": "Komfort, Personalisierung und außergewöhnlicher Service:",
-    "tituloSpan": "Deine einzigartige Erfahrung",
-    "texto": "Pocki führt nicht nur Finanztransaktionen durch, sondern bietet auch eine Reihe von Dienstleistungen basierend auf dem ständigen Lernen deiner Vorlieben und Verhaltensweisen an. Es geht um Komfort, Personalisierung, Service und außergewöhnliche Unterstützung."
+    "tituloSpan": "Ihre einzigartige Erfahrung",
+    "texto": "Pocki führt nicht nur Finanzoperationen durch, sondern bietet auch eine Reihe von Dienstleistungen an, die auf seinem ständigen Lernen Ihrer Vorlieben und Verhaltensweisen basieren. Es geht um Komfort, Personalisierung, Service und außergewöhnliche Unterstützung."
+  },
+  "servicios": {
+    "nombreSeccion": "Dienstleistungen",
+    "titulo": "Wir laden Sie ein, die Einrichtungen zu entdecken, die",
+    "tituloSpan": "Pocki für Sie bereithält",
+    "texto": "Unser virtueller Assistent bietet Effizienz und Genauigkeit bei täglichen Aufgaben, Terminplanung, Erinnerungen und vielem mehr, und verbessert so Ihre Produktivität!"
   }
 }

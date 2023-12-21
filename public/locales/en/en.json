@@ -65,5 +65,11 @@
     "titulo": "Comfort, Personalization, and Exceptional Service:",
     "tituloSpan": "Your Unique Experience",
     "texto": "Pocki not only performs financial operations but also offers a range of services based on its constant learning of your preferences and behaviors. It's about comfort, personalization, service, and exceptional assistance."
-  }
+  },
+  "servicios": {
+    "nombreSeccion": "Services",
+    "titulo": "We invite you to learn about the facilities that",
+    "tituloSpan": "Pocki brings for you",
+    "texto": "Our virtual assistant offers efficiency and precision in daily tasks, scheduling appointments, reminders, and much more, thus improving your productivity!"
+}
 }

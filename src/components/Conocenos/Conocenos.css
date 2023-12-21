@@ -7,6 +7,12 @@
     ),
     linear-gradient(161deg, #15731c 9.39%, rgba(104, 182, 132, 0) 83.29%),
     linear-gradient(0deg, #025100, #000000);
+
+    
+}
+
+.features-cont::-webkit-scrollbar {
+  display: none;
 }
 
 .features-cont::after {

@@ -3,67 +3,73 @@
     "dataCards": {
       "card1": {
         "titulo": "Transactions",
-        "texto": "Nous facilitons des transactions telles que les transferts, les recharges, l'achat d'adhésions, les paris sportifs, les certificats, et plus encore, le tout depuis Whatsapp."
+        "texto": "Nous facilitons des transactions telles que les transferts, les recharges, l'achat d'adhésions, les paris sportifs, les certificats, et plus encore, tout cela depuis WhatsApp."
       },
       "card2": {
         "titulo": "Services Commerciaux",
-        "texto": "Nous nous occupons des stratégies de marketing et de communication pour se connecter avec des publics spécifiques lors d'événements tels que des lancements et des offres."
+        "texto": "Nous gérons des stratégies de marketing et de communication pour connecter avec des publics spécifiques lors d’événements tels que des lancements et des offres."
       },
       "card3": {
         "titulo": "Services d'Assistance",
-        "texto": "Pocki répond aux questions fréquemment posées sur votre modèle commercial et facilite l'interaction avec les clients grâce à des conversations 'plus humaines' de manière efficace 24/7."
+        "texto": "Pocki répond aux questions fréquentes sur votre modèle d'affaires et facilite l'interaction avec les clients avec des conversations 'plus humaines' de manière efficace 24h/24 et 7j/7."
       },
       "card4": {
         "titulo": "Efficacité Opérationnelle",
-        "texto": "Nous offrons notre expertise technologique pour répondre aux besoins des entreprises. Nous évaluons et proposons des solutions sur mesure."
+        "texto": "Nous offrons notre expertise technologique pour répondre aux besoins commerciaux. Nous évaluons et proposons des solutions sur mesure."
       }
     },
     "informCards": {
       "card1": {
-        "titulo": "Services publics",
-        "texto": "Vous aurez seulement besoin de la photo du code-barres ou de la référence de paiement de votre facture de services publics."
+        "titulo": "Services Publics",
+        "texto": "Vous aurez seulement besoin d'une photo du code-barres ou de la référence de paiement de votre facture de services publics."
       },
       "card2": {
-        "titulo": "Achat de codes PIN",
-        "texto": "Vous pourrez choisir parmi une grande variété de codes PIN que nous avons pour vous."
+        "titulo": "Achat de Pins",
+        "texto": "Vous pourrez choisir parmi une grande variété de pins que nous avons pour vous."
       },
       "card3": {
-        "titulo": "Recharges mobiles",
-        "texto": "Rechargez facilement votre téléphone portable à tout moment et où que vous soyez."
+        "titulo": "Recharges Mobiles",
+        "texto": "Rechargez facilement votre téléphone mobile à tout moment et en tout lieu."
       },
       "card4": {
-        "titulo": "Achats en ligne",
-        "texto": "Effectuez des achats sécurisés en ligne avec nos cartes virtuelles."
+        "titulo": "Achats en Ligne",
+        "texto": "Effectuez des achats en ligne en toute sécurité avec nos cartes virtuelles."
       },
       "card5": {
-        "titulo": "Transfert d'argent",
-        "texto": "Envoyez de l'argent à vos proches de manière rapide et sécurisée."
+        "titulo": "Envoi d'Argent",
+        "texto": "Envoyez de l'argent à vos proches rapidement et en toute sécurité."
       }
-    }    
+    }
   },
   "header": {
-    "logoAlt": "logo pocki",
+    "logoAlt": "logo de pocki",
     "nav": {
       "inicio": "accueil",
       "servicios": "services",
-      "conocenos": "à propos",
+      "conocenos": "faites notre connaissance",
       "historia": "histoire",
-      "contacto": "contact"
+      "contacto": "Contact"
     },
     "contador": "interactions"
   },
   "inicio": {
-    "titulo": "Pocki, Votre assistant virtuel de confiance",
-    "subtitulo": "découvrez votre futur assistant",
-    "texto": ", découvrez le véritable potentiel de l'",
-    "textoSpan1": "Facile à utiliser",
-    "textoSpan2": "Intelligence Artificielle.",
+    "titulo": "Pocki, Votre Assistant Virtuel de Confiance",
+    "subtitulo": "rencontrez votre futur assistant",
+    "texto": ", découvrez le véritable potentiel de",
+    "textoSpan1": "Facile à Utiliser",
+    "textoSpan2": "l'Intelligence Artificielle.",
     "cta": "Discutez avec Pocki"
   },
   "conocenos": {
-    "nombreSeccion": "Faites notre connaissance",
-    "titulo": "Confort, personnalisation et service exceptionnel:",
-    "tituloSpan": "Votre expérience unique",
-    "texto": "Pocki ne se contente pas de réaliser des opérations financières, mais propose également une gamme de services basés sur son apprentissage constant de vos préférences et comportements. Il s'agit de confort, de personnalisation, de service et d'assistance exceptionnels."
+    "nombreSeccion": "Faites Notre Connaissance",
+    "titulo": "Confort, personnalisation et service exceptionnel :",
+    "tituloSpan": "Votre Expérience Unique",
+    "texto": "Pocki ne réalise pas seulement des opérations financières, mais offre également un ensemble de services basé sur son apprentissage constant de vos préférences et comportements. Il s'agit de confort, de personnalisation, de service et d'assistance exceptionnels."
+  },
+  "servicios": {
+    "nombreSeccion": "Services",
+    "titulo": "Nous vous invitons à découvrir les facilités que",
+    "tituloSpan": "Pocki apporte pour vous",
+    "texto": "Notre assistant virtuel offre efficacité et précision dans les tâches quotidiennes, la programmation de rendez-vous, les rappels et bien plus encore, améliorant ainsi votre productivité !"
   }
 }
