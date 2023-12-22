@@ -11,10 +11,10 @@ const Conocenos = () => {
   return (
     <>
       <div
-        className="features-cont w-full flex flex-col items-center pb-12 h-max md:h-[120vh] overflow-visible"
+        className="features-cont w-full flex flex-col items-center pb-12 h-max lg:h-[100vh] overflow-visible"
         id="conocenos"
       >
-        <div className="features-top flex flex-col justify-start content-center items-center pt-20 pb-12 overflow-visible">
+        <div className="features-top flex flex-col justify-start content-center items-center pt-20 pb-4 overflow-visible">
           <h2
             className="info-title mb-8 font-extrabold text-2xl md:text-3xl overflow-visible z-[1] w-[100dvw] pb-4 pt-4 bg-black text-white text-center"
             data-aos="fade-left"
@@ -45,7 +45,7 @@ const Conocenos = () => {
           </div>
         </div>
 
-        <div className="max-w-[70rem] flex flex-row flex-wrap items-center gap-4 overflow-visible content-center justify-center">
+        <div className="features-display bg-white py-4 px-2 h-full flex w-full max-w-[70vw] flex-wrap gap-4">
           {dataCards.map((card) => (
             <AsideCard
               key={card.id}
