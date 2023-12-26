@@ -1,11 +1,9 @@
-import { GetCards } from "../../data/dataCards";
-import AsideCard from "../../utils/AsideCard";
 import { useTranslationHook } from "../../hooks/useI18nTranslation";
 
 import "./Conocenos.css";
+import Services from "../../utils/Servicios";
 
 const Conocenos = () => {
-  const dataCards = GetCards();
   const { t } = useTranslationHook();
 
   return (
@@ -45,16 +43,8 @@ const Conocenos = () => {
           </div>
         </div>
 
-        <div className="features-display bg-white py-4 px-2 h-full flex w-full max-w-[70vw] flex-wrap gap-4">
-          {dataCards.map((card) => (
-            <AsideCard
-              key={card.id}
-              id={card.id}
-              url={card.url}
-              title={card.title}
-              text={card.text}
-            />
-          ))}
+        <div className="services-display bg-white h-full flex w-full max-w-[70vw]">
+          <Services />
         </div>
       </div>
     </>

@@ -6,25 +6,29 @@ export function GetCards() {
   const dataCards = [
     {
       id: 1,
-      url: "/assets/icons/transaction.svg",
+      serviceImage: "TransactionImage",
+      serviceBg: "TransactionBg",
       title: t("data.dataCards.card1.titulo"),
       text: t("data.dataCards.card1.texto")
     },
     {
       id: 2,
-      url: "/assets/icons/services.svg",
+      serviceImage: "CommercialImage",
+      serviceBg: "CommercialBg",
       title: t("data.dataCards.card2.titulo"),
       text: t("data.dataCards.card2.texto")
     },
     {
       id: 3,
-      url: "/assets/icons/assistance.svg",
+      serviceImage: "AssistanceImage",
+      serviceBg: "AssistanceBg",
       title: t("data.dataCards.card3.titulo"),
       text:t("data.dataCards.card3.texto")
     },
     {
       id: 4,
-      url: "/assets/icons/efficiency.svg",
+      serviceImage: "EfficiencyImage",
+      serviceBg: "EfficiencyBg",
       title: t("data.dataCards.card4.titulo"),
       text: t("data.dataCards.card4.texto")
     }
