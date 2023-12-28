@@ -13,18 +13,6 @@
   display: none;
 }
 
-.features-cont::after {
-  content: "";
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  background-image: url(../../public/assets/waves.svg);
-  background-position: 0% 0%;
-  background-size: 100% 10rem;
-  background-repeat: no-repeat;
-  box-shadow: 0px -20px -20px 0px rgba(0, 0, 0, 0.25);
-}
-
 .features-cont::before {
   content: "";
   position: absolute;
@@ -43,7 +31,9 @@
   align-content: center !important;
   justify-content: center !important;
   align-items: center !important;
-  box-shadow: -12px 18px 20px 0px rgba(0, 0, 0, 0.25);
+  overflow-x: visible;
+  overflow-y: hidden;
+  /* background-color: rgb(241, 241, 241); */
 }
 
 .features {
@@ -131,15 +121,9 @@
 
 .services-svg {
   background: rgb(0,0,0);
-  background: radial-gradient(circle, rgb(71, 204, 38) 0%, rgba(255, 255, 255, 0) 100%);
+  background: radial-gradient(circle, rgb(71, 204, 38) 0%, rgb(255, 255, 255) 100%);
   aspect-ratio: 1/1;
   border: 2px solid rgba(128, 128, 128, 0.226);
-  overscroll-behavior-y: none;
-}
-
-.swiper-slide::-webkit-scrollbar {
-  display: none;
-  pointer-events: none;
 }
 
 .services-img {
@@ -149,6 +133,19 @@
 .services-bg {
   animation: Bounce 3s ease-in-out infinite, ShadowBg 3s ease-in-out infinite;
   animation-delay: 0.4s;
+}
+
+.swiper-pagination {
+  bottom: 0 !important;
+  box-shadow: 0px -10px 20px 0px rgba(0, 0, 0, 0.1);
+  padding: 0.4rem 0;
+  background-color: white;
+}
+
+.swiper-pagination-bullet {
+  background-color: rgb(34 197 94) !important;
+  transform: scale(1.2);
+  border: 1px solid rgb(2, 145, 54);
 }
 
 /* Responsive */
@@ -164,6 +161,43 @@
   .features-cont::before {
     height: 200vh;
     box-shadow: none;
+  }
+}
+
+@media (max-width: 1024px) {
+  .services-display {
+    background-color: transparent;
+    box-shadow: none;
+    max-width: 40rem !important;
+  }
+  
+  .services0 {
+    flex-direction: row-reverse;
+  }
+  
+  .services-text0 {
+    transform: translateY(-4rem);
+  }
+  .services1 {
+    flex-direction: row;
+  }
+  
+  .services-text1 {
+    transform: translateY(-4rem);
+  }
+  .services2 {
+    flex-direction: row-reverse;
+  }
+  
+  .services-text2 {
+    transform: translateY(-4rem);
+  }
+  .services3 {
+    flex-direction: row;
+  }
+  
+  .services-text3 {
+    transform: translateY(-4rem);
   }
 }
 
