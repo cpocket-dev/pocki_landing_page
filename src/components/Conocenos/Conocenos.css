@@ -17,7 +17,7 @@
   content: "";
   position: absolute;
   width: 100%;
-  height: 120vh;
+  height: 100%;
   background-image: url(../../assets/backgrounds/bg-texture.png);
   background-position: 0% 0%;
   background-size: 16rem;
@@ -47,12 +47,25 @@
   box-shadow: 1px -4px 20px 9px rgba(0, 0, 0, 0.25);
 }
 
-@keyframes Bounce {
+@keyframes BounceImage {
   0% {
     transform: translateY(0);
   }
   50% {
     transform: translateY(-3px) scale(1.05);
+    
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+@keyframes BounceBg {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-3px) scale(1.15);
     
   }
   100% {
@@ -119,6 +132,27 @@
   transform: translateX(-4rem);
 }
 
+@keyframes rotateGradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  100% {
+    background-position: 100% 100%;
+  }
+}
+
+.services-text-desk {
+  background: linear-gradient(
+    139.58deg,
+    #ffd40061 -0.47%,
+    rgb(255 255 255 / 0%) 77%
+  ),
+  linear-gradient(161deg, #23af2c 9.39%, rgba(255, 255, 255, 0) 83.29%),
+  linear-gradient(0deg, #36cc34, #6b6b6b);
+  background-size: 200% 200%; /* Increase the background size for a smoother transition */
+  animation: rotateGradient 1s ease-in-out infinite alternate; /* Adjust time as needed */
+}
+
 .services-svg {
   background: rgb(0,0,0);
   background: radial-gradient(circle, rgb(71, 204, 38) 0%, rgb(255, 255, 255) 100%);
@@ -127,11 +161,11 @@
 }
 
 .services-img {
-  animation: Bounce 3s ease-in-out infinite, ShadowImg 3s ease-in-out infinite;
+  animation: BounceImage 3s ease-in-out infinite, ShadowImg 3s ease-in-out infinite;
 }
 
 .services-bg {
-  animation: Bounce 3s ease-in-out infinite, ShadowBg 3s ease-in-out infinite;
+  animation: BounceBg 3s ease-in-out infinite, ShadowBg 3s ease-in-out infinite;
   animation-delay: 0.4s;
 }
 
@@ -150,25 +184,17 @@
 
 /* Responsive */
 
-@media (max-width: 655px) {
-  .features-cont::before {
-    height: 200vh;
-    box-shadow: none;
-  }
-}
-
 @media (max-width: 768px) {
-  .features-cont::before {
-    height: 200vh;
-    box-shadow: none;
-  }
+/*   .services-display {
+    max-width: 100% !important;
+  } */
 }
 
 @media (max-width: 1024px) {
   .services-display {
     background-color: transparent;
     box-shadow: none;
-    max-width: 40rem !important;
+    /* max-width: 40rem !important; */
   }
   
   .services0 {
@@ -176,28 +202,28 @@
   }
   
   .services-text0 {
-    transform: translateY(-4rem);
+    transform: translateY(-2rem);
   }
   .services1 {
     flex-direction: row;
   }
   
   .services-text1 {
-    transform: translateY(-4rem);
+    transform: translateY(-2rem);
   }
   .services2 {
     flex-direction: row-reverse;
   }
   
   .services-text2 {
-    transform: translateY(-4rem);
+    transform: translateY(-2rem);
   }
   .services3 {
     flex-direction: row;
   }
   
   .services-text3 {
-    transform: translateY(-4rem);
+    transform: translateY(-2rem);
   }
 }
 

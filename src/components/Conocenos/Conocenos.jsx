@@ -9,7 +9,7 @@ const Conocenos = () => {
   return (
     <>
       <div
-        className="features-cont w-full flex flex-col items-center pb-12 h-max lg:h-[100vh] overflow-visible"
+        className="features-cont w-full flex flex-col items-center pb-12 h-max lg:h-[100vh] overflow-visible relative"
         id="conocenos"
       >
         <div className="features-top flex flex-col justify-start content-center items-center pt-20 pb-4 overflow-visible">
@@ -44,7 +44,7 @@ const Conocenos = () => {
         </div>
 
         <div
-          className="services-display h-full flex w-full"
+          className="services-display h-full flex w-[95%] md:w-[75vw]"
           data-aos="zoom-out"
           data-aos-once="true"
           data-aos-delay="500"

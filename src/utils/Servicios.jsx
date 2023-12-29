@@ -30,7 +30,7 @@ const Servicios = () => {
           direction="horizontal"
           modules={[Autoplay, Pagination]}
           pagination={{ clickable: true, disableOnInteraction: false }}
-          className="h-full overflow-hidden w-full max-w-[70%] bg-zinc-100 rounded-xl"
+          className="h-full overflow-hidden w-full bg-zinc-100 rounded-xl"
           autoplay={{
             delay: 6000,
             disableOnInteraction: false,
@@ -57,7 +57,7 @@ const Servicios = () => {
                     )}
                   </div>
                   <p
-                    className={`services-text services-text${index} z-[1] text-xl font-extralight h-max rounded-lg p-4 max-w-[30%] bg-green-500 shadow-2xl border odd:translate-x-[-3rem] text-white right-0`}
+                    className={`services-text-desk services-text services-text${index} z-[1] text-xl font-extralight h-max rounded-2xl p-4 max-w-[30%] shadow-2xl odd:translate-x-[-3rem] text-white right-0`}
                   >
                     {s.text}
                   </p>
@@ -67,20 +67,20 @@ const Servicios = () => {
           })}
         </Swiper>
       ) : (
-        <div className="flex flex-col gap-8">
+        <div className="flex flex-col gap-8 h-[50%] justify-center content-center items-center">
           {services.map((s, index) => {
             const ServiceImage = Images[s.serviceImage];
             const ServiceBg = Images[s.serviceBg];
 
             return (
-              <div key={index} className="rounded-xl">
-                <p className="flex justify-center items-center text-xl shadow-lg font-bold z-[2] h-[10%] w-full text-center bg-white py-2 w-full">
+              <div key={index} className="rounded-xl overflow-visible w-full">
+                <p className="flex justify-center items-center text-xl  font-bold z-[2] h-[10%] text-center bg-white py-2 w-full">
                   {s.title}
                 </p>
                 <div
-                  className={`services-image-cont w-full h-[90%] p-8 flex flex-col justify-center items-center relative text-center overflow-hidden -z-10 services${index} bg-zinc-100`}
+                  className={`services-image-cont w-full flex flex-col justify-center items-center relative text-center overflow-hidden -z-10 services${index} bg-transparent`}
                 >
-                  <div className="services-svg flex w-full h-[90%] scale-[0.9] items-center content-center overflow-visible justify-center rounded-xl shadow-2xl">
+                  <div className="services-svg flex w-full h-[90%]  items-center content-center overflow-visible justify-center rounded-b-xl">
                     {ServiceImage && (
                       <ServiceImage className="services-img absolute max-h-[130%] overflow-visible" />
                     )}
@@ -88,11 +88,13 @@ const Servicios = () => {
                       <ServiceBg className="services-bg max-h-[130%] absolute overflow-visible" />
                     )}
                   </div>
-                  <p
-                    className={`services-text services-text${index} z-[1] text-xl font-extralight h-max rounded-lg p-4 max-w-[80%] bg-green-500 shadow-2xl border odd:translate-x-[-3rem] text-white right-0`}
+                  <div
+                    className={`services-text services-text${index} z-[1] text-base font-extralight overflow-visible rounded-lg max-w-[100%]`}
                   >
+                    <p className="services-text-desk shadow-xl rounded-xl p-3 w-[95%] mx-auto border-2 text-white border-white">
                     {s.text}
-                  </p>
+                    </p>
+                  </div>
                 </div>
               </div>
             );
