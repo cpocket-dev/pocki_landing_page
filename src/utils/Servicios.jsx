@@ -1,4 +1,4 @@
-import * as Images from "../assets/services/Images";
+import * as Images from "../assets/know-us/Images";
 import { GetCards } from "../data/dataCards";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay, Pagination } from "swiper";

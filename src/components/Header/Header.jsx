@@ -86,10 +86,10 @@ const Header = () => {
             <li className={`nav-li ${isActive ? "display-li" : ""}`}>
               <a
                 className="nav-button history-button nav-li-button"
-                href="#historia"
+                href="#nosotros"
                 onClick={menuActions}
               >
-                {t("header.nav.historia")}
+                {t("header.nav.nosotros")}
               </a>
             </li>
             <li className={`nav-li ${isActive ? "display-li" : ""}`}>
