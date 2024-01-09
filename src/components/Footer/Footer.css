@@ -1,0 +1,20 @@
+/* .footer-cont {
+    background: linear-gradient(
+        139.58deg,
+        #ffd40061 -0.47%,
+        rgb(255 255 255 / 0%) 77%
+      ),
+      linear-gradient(161deg, #15731c 9.39%, rgba(104, 182, 132, 0) 83.29%),
+      linear-gradient(0deg, #025100, #000000);
+} */
+
+.footer-cont::before {
+    background-image: url(../../assets/backgrounds/bg-texture.png);
+    background-size: 16rem;
+    position: absolute;
+    mix-blend-mode: multiply;
+    width: 100%;
+    height: 100%;
+    content: '';
+    top: 0;
+}
