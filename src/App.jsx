@@ -17,7 +17,7 @@ function App() {
       <section className="content-cont overflow-visible">
         <Conocenos />
         <Servicios />
-        <Equipo />
+        {/* <Equipo /> */}
         <Footer />
       </section>
     </>

@@ -1,6 +1,7 @@
 import { FaInstagram, FaLinkedin, FaPhone } from "react-icons/fa";
 import "./Footer.css";
 import React from "react";
+import { ContactModal } from "./ContactModal";
 
 export const Footer = () => {
   return (
@@ -60,9 +61,7 @@ export const Footer = () => {
               Privacy Politics
             </a>
             <div className="w-[1px] bg-white" />
-            <a href="http://" target="_blank" rel="noopener noreferrer">
-              Contact Us
-            </a>
+            <ContactModal />
           </div>
         </div>
 

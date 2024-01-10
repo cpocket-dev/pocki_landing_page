@@ -8,9 +8,9 @@ export function Equipo() {
   const [isOpen, setIsOpen] = useState(false);
   useEffect(() => {
     if (isOpen) {
-      document.body.style.overflow = "hidden";
+      document.documentElement.style.overflow = "hidden";
     } else {
-      document.body.style.overflow = "unset";
+      document.documentElement.style.overflow = "unset";
     }
   }, [isOpen])
   return (
@@ -36,10 +36,10 @@ export function Equipo() {
           </button>
           {isOpen && (
             <div className="animate-fade animate-once animate-ease-in-out z-10 fixed inset-0 bg-black bg-opacity-30 backdrop-blur-sm flex justify-center items-center">
-              <div className="w-1/2 h-1/2 bg-white flex flex-col justify-center items-center content-center">
+              <div className="modal-animation rounded-xl shadow-2xl w-1/2 h-1/2 bg-white flex flex-col justify-center items-center content-center relative">
                 <p>MODAL</p>
                 <button
-                  className="rounded-xl bg-black text-white w-[10rem] h-[3rem]"
+                  className="absolute top-4 right-4 close-button rounded-xl bg-black text-white w-[10rem] h-[3rem]"
                   onClick={() => setIsOpen(false)}
                 >
                   Close Modal
