@@ -5,7 +5,7 @@ import { ContactModal } from "./ContactModal";
 
 export const Footer = () => {
   return (
-    <div className="footer-cont py-4 w-screen h-max  bg-black text-white relative">
+    <div className="footer-cont py-4 w-screen h-max  bg-black text-white relative" id="contacto">
 
       <div className="lg:max-w-[75vw] flex gap-4 flex-col items-center mx-auto">
         <div className="footer-top p-4 bg-black shadow-2xl w-full h-[33%] sm:h-[20%] flex justify-center items-center border-t-[3px] border-black relative">

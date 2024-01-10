@@ -8,7 +8,7 @@ const Inicio = () => {
 
   return (
     <main className="main-cont mb-12" id="main">
-      <div className="main lg:flex-row lg:h-[70%]">
+      <div className="main lg:flex-row-reverse lg:h-[70%]">
         <div className="main-image main-section lg:w-[30%]">
           <div
             className="main-image-box"
@@ -33,14 +33,14 @@ const Inicio = () => {
         </div>
         <div className="main-info main-section lg:w-[40%]">
           <p
-            className="text-sm text-center text-gray-400 overflow-visible"
+            className="text-sm  text-gray-200 overflow-visible w-full"
             data-aos="fade-up"
             data-aos-once="true"
           >
             {t("inicio.subtitulo")}
           </p>
           <p
-            className="main-info-text text-center md:text-5xl md:w-full"
+            className="main-info-text  md:text-5xl md:w-full"
             data-aos="fade-left"
             data-aos-once="true"
             data-aos-delay="200"
@@ -48,7 +48,7 @@ const Inicio = () => {
             {t("inicio.titulo")}
           </p>
           <p
-            className="main-info-sub text-xl text-center w-full overflow-visible"
+            className="main-info-sub text-xl  w-full overflow-visible"
             data-aos="fade-left"
             data-aos-once="true"
             data-aos-delay="300"

@@ -11,6 +11,13 @@ const Header = () => {
 
   const [isActive, setIsActive] = useState(false);
   const [windowWidth, setWindowWidth] = useState(window.innerWidth);
+  useEffect(() => {
+    if (isActive) {
+      document.documentElement.style.overflow = "hidden";
+    } else {
+      document.documentElement.style.overflow = "unset";
+    }
+  }, [isActive])
 
   const toggleClass = () => {
     setIsActive(!isActive);
