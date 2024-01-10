@@ -62,8 +62,6 @@
 
 .main-image-box {
   background-image: url(../../src/assets/logos/pocki-temp.webp);
-  height: 23rem;
-  width: 100%;
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
@@ -83,8 +81,6 @@
 
 .main-image-backdrop {
   position: absolute;
-  height: 20rem;
-  width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -287,7 +283,7 @@
 /* Responsive */
 
 
-@media (max-width: 700px) {
+/* @media (max-width: 700px) {
   .main-image-box {
     position: absolute;
     transform: translateX(-40%) rotate(45deg) translateY(10%) !important;
@@ -315,7 +311,7 @@
   .main-image-box {
     transform: translateX(-50%) rotate(45deg) translateY(-25%) scale(1) !important;
   }
-}
+} */
 
 
 /* Responsive */

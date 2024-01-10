@@ -44,7 +44,7 @@ const Conocenos = () => {
         </div>
 
         <div
-          className="services-display h-full flex w-[95%] md:w-[75vw]"
+          className="services-display h-full flex w-[95%] md:w-[85vw]"
           data-aos="zoom-out"
           data-aos-once="true"
           data-aos-delay="500"

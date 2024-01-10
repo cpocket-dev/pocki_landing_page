@@ -8,10 +8,10 @@ const Inicio = () => {
 
   return (
     <main className="main-cont mb-12" id="main">
-      <div className="main lg:flex-row-reverse lg:h-[70%]">
-        <div className="main-image main-section lg:w-[30%]">
+      <div className="main lg:flex-row-reverse lg:h-[70%] w-[95vw] ">
+        <div className="main-image main-section w-full lg:w-[50%] relative overflow-visible">
           <div
-            className="main-image-box"
+            className="main-image-box w-full h-full"
             data-aos="fade-down"
             data-aos-once="true"
           />

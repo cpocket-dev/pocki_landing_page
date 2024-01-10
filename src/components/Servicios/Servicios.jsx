@@ -27,7 +27,7 @@ export const Servicios = () => {
         >
           {t("servicios.nombreSeccion")}
         </h2>
-        <div className="info overflow-visible gap-4 flex-col lg:flex-row w-[95dvw] md:w-[70vw] my-auto flex items-center content-center justify-center pb-4">
+        <div className="info overflow-visible gap-4 flex-col lg:flex-row w-[95dvw] md:w-[85vw] my-auto flex items-center content-center justify-center pb-4">
           <div className="md:min-w-[23rem] flex flex-col mx-auto items-center overflow-hidden justify-center content-center w-[full]">
             <h2
               className="font-extrabold text-white w-full mb-4 text-2xl md:text-3xl md:px-8 text-center overflow-hidden"
@@ -125,7 +125,7 @@ export const Servicios = () => {
                     <h3 className="px-5 pt-5 text-xl font-bold text-center pb-1">
                       {card.title}
                     </h3>
-                    <p className="px-5 pb-5 leading-4 text-xs text-center">
+                    <p className="px-5 pb-5 leading-4 text-center">
                       {card.text}
                     </p>
                     <button

@@ -54,7 +54,7 @@ export function ContactModal() {
 
       {isOpen && (
         <div className="animate-fade animate-once animate-ease-in-out z-10 fixed inset-0 bg-black bg-opacity-30 backdrop-blur-sm flex justify-center items-center">
-          <div className="modal-animation rounded-xl shadow-2xl w-[90vw] sm:w-[70vw] h-1/2 bg-white flex flex-col justify-center items-center content-center relative">
+          <div className="modal-animation rounded-xl shadow-2xl w-[90vw] sm:w-[85vw] h-1/2 bg-white flex flex-col justify-center items-center content-center relative">
             <div className="w-full h-full flex flex-col p-4">
               <div className="contact-modal-top flex justify-between items-center content-center">
                 <p className="text-black">Contact Us</p>
