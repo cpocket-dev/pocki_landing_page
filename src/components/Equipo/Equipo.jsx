@@ -1,11 +1,18 @@
 import { useTranslationHook } from "../../hooks/useI18nTranslation";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 
 import "./Equipo.css";
 
-export const Equipo = () => {
+export function Equipo() {
   const { t } = useTranslationHook();
-
+  const [isOpen, setIsOpen] = useState(false);
+  useEffect(() => {
+    if (isOpen) {
+      document.body.style.overflow = "hidden";
+    } else {
+      document.body.style.overflow = "unset";
+    }
+  }, [isOpen])
   return (
     <>
       <div
@@ -21,11 +28,25 @@ export const Equipo = () => {
             C-Pocket Team
           </h2>
 
-          <button className="rounded-xl bg-black text-white w-[10rem] h-[3rem]">Open Modal</button>
-
-          <div>
-            <p></p>
-          </div>
+          <button
+            className="rounded-xl bg-black text-white w-[10rem] h-[3rem] z-[2]"
+            onClick={() => setIsOpen(true)}
+          >
+            Open Modal
+          </button>
+          {isOpen && (
+            <div className="animate-fade animate-once animate-ease-in-out z-10 fixed inset-0 bg-black bg-opacity-30 backdrop-blur-sm flex justify-center items-center">
+              <div className="w-1/2 h-1/2 bg-white flex flex-col justify-center items-center content-center">
+                <p>MODAL</p>
+                <button
+                  className="rounded-xl bg-black text-white w-[10rem] h-[3rem]"
+                  onClick={() => setIsOpen(false)}
+                >
+                  Close Modal
+                </button>
+              </div>
+            </div>
+          )}
 
           {/* <div className="team w-[95vw] md:w-[75vw] bg-white z-[5] flex flex-col mx-auto p-8 rounded-xl gap-4">
             <p className="text-3xl">Meet our Team</p>
@@ -49,9 +70,8 @@ export const Equipo = () => {
               </div>
             </div>
           </div> */}
-
         </div>
       </div>
     </>
   );
-};
+}

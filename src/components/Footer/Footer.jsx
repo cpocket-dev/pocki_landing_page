@@ -5,6 +5,7 @@ import React from "react";
 export const Footer = () => {
   return (
     <div className="footer-cont py-4 w-screen h-max  bg-black text-white relative">
+
       <div className="lg:max-w-[75vw] flex gap-4 flex-col items-center mx-auto">
         <div className="footer-top p-4 bg-black shadow-2xl w-full h-[33%] sm:h-[20%] flex justify-center items-center border-t-[3px] border-black relative">
           <div className="w-full h-full flex flex-col sm:flex-row justify-center overflow-visible items-center gap-2 sm:gap-8">
@@ -40,7 +41,7 @@ export const Footer = () => {
           <div className="divider h-[1px] w-[65%] sm:h-[6rem] sm:w-[1px] bg-zinc-400"></div>
           <div className="flex flex-col w-1/2 gap-2">
             <p className="w-full text-center">
-              Contact Email: info@example.com
+              Contact Email: atencionalcliente@cpocket.global
             </p>
             <p className="w-full text-center">Phone: +57 320-583-2189</p>
           </div>
@@ -51,13 +52,20 @@ export const Footer = () => {
         <div className="footer-bottom p-4 bg-black shadow-2xl w-full h-[15%] flex flex-col sm:flex-row justify-center items-center gap-8 border-t-[3px] border-black relative">
           <p className="sm:w-1/2 sm:text-center">2023 All Rights Reserved</p>
           <div className="flex gap-2 sm:w-1/2 sm:justify-center sm:content-center font-bold">
-            <p>T&C</p>
+            <a href="http://" target="_blank" rel="noopener noreferrer">
+              T&C
+            </a>
             <div className="w-[1px] bg-white" />
-            <p>Privacy Politics</p>
+            <a href="http://" target="_blank" rel="noopener noreferrer">
+              Privacy Politics
+            </a>
             <div className="w-[1px] bg-white" />
-            <p>Contact Us</p>
+            <a href="http://" target="_blank" rel="noopener noreferrer">
+              Contact Us
+            </a>
           </div>
         </div>
+
       </div>
     </div>
   );
