@@ -80,9 +80,9 @@ const Servicios = () => {
                 <div
                   className={`services-image-cont w-full flex flex-col justify-center items-center relative text-center overflow-hidden -z-10 services${index} bg-transparent`}
                 >
-                  <div className="services-svg flex w-full h-[90%]  items-center content-center overflow-visible justify-center rounded-b-xl">
+                  <div className="services-svg flex w-full h-[25rem]  items-center content-center overflow-visible justify-center rounded-b-xl">
                     {ServiceImage && (
-                      <ServiceImage className="services-img absolute max-h-[130%] overflow-visible" />
+                      <ServiceImage className="services-img absolute max-h-[100%] overflow-visible" />
                     )}
                     {ServiceBg && (
                       <ServiceBg className="services-bg max-h-[130%] absolute overflow-visible" />

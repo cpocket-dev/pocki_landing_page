@@ -1,5 +1,4 @@
 .main-cont {
-  height: 100vh;
   background: linear-gradient(
       139.58deg,
       #ffd40061 -0.47%,
@@ -7,13 +6,6 @@
     ),
     linear-gradient(161deg, #15731c 9.39%, rgba(104, 182, 132, 0) 83.29%),
     linear-gradient(0deg, #025100, #000000);
-  padding-top: 3rem;
-  color: white;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  border-bottom: 3px solid black;
 }
 
 .main-cont::after {
@@ -29,23 +21,6 @@
   filter: brightness(0.5) contrast(1.25);
 }
 
-.main {
-  display: flex;
-  flex-direction: column-reverse;
-  align-items: center;
-  justify-content: center;
-  align-content: center;
-  /* gap: 4rem; */
-  width: 100%;
-  height: 80%;
-  z-index: 1;
-}
-
-.main-info {
-  height: 100%;
-  overflow: visible;
-}
-
 .main-section {
   width: 96%;
   display: flex;
@@ -55,19 +30,8 @@
   gap: 1rem;
 }
 
-.main-image {
-  width: 80%;
-  height: 100%;
-}
-
 .main-image-box {
-  background-image: url(../../src/assets/logos/pocki-temp.webp);
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  background-image: url(../../../public/logos/pocki.webp);
 }
 
 @keyframes glow {
@@ -271,7 +235,7 @@
 }
 
 .brand {
-  background: url(../../src/assets/logos/fintech-logo.svg);
+  background: url(../../../public/logos/fintech-logo.svg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;

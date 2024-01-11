@@ -4,7 +4,7 @@ import { GiHamburgerMenu } from "react-icons/gi";
 import { RiCloseLine } from "react-icons/ri";
 import { Counter } from "../../utils/Counter";
 import { useTranslationHook } from "../../hooks/useI18nTranslation";
-import HeaderLogo from "../../assets/logos/header-logo.svg";
+import HeaderLogo from "../../../public/logos/header-logo.svg";
 
 const Header = () => {
   const { t } = useTranslationHook(); // Hook personalizado para usar i18n

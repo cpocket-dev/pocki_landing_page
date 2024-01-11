@@ -4,13 +4,13 @@ export function GetCards() {
   const { t } = useTranslationHook();
 
   const dataCards = [
-    {
+/*     {
       id: 1,
       serviceImage: "TransactionImage",
       serviceBg: "TransactionBg",
       title: t("data.dataCards.card1.titulo"),
       text: t("data.dataCards.card1.texto")
-    },
+    }, */
     {
       id: 2,
       serviceImage: "CommercialImage",

@@ -32,7 +32,7 @@ export const Footer = () => {
         <div className="footer-information shadow-2xl md:px-[5rem] bg-black flex flex-col sm:flex-row justify-center items-center w-full gap-4 h-[60%] m-auto rounded-xl">
           <div className="flex flex-col w-1/2 gap-2">
             <p className="w-full text-center text-2xl font-bold">
-              C-Pocket - Pocky
+              C-Pocket - Pocki
             </p>
             <p className="w-full text-center">
               7D Street, #43A-40, Office 5-107
