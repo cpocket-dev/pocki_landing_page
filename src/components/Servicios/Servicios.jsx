@@ -14,12 +14,12 @@ export const Servicios = () => {
 
   return (
     <div
-      className="my-12 border-y-[3px] border-black flex flex-col"
+      className="flex flex-col overflow-visible"
       id="servicios"
     >
-      <div className="information relative flex flex-col h-full justify-center items-center gap-8 pt-4 pb-12">
+      <div className="information relative flex flex-col h-full justify-center items-center gap-8 pt-4 pb-12 xl:overflow-hidden">
         <h2
-          className="services-title shadow-2xl font-extrabold text-2xl md:text-3xl py-4 text-white flex justify-center mt-16 md:mt-0 items-center overflow-visible z-[1] w-[100dvw] bg-black"
+          className="services-title shadow-2xl font-extrabold text-2xl md:text-3xl py-4 text-white flex justify-center mt-16 items-center overflow-visible z-[1] w-[100dvw] bg-black"
           data-aos="fade-left"
           data-aos-once="true"
         >
@@ -28,7 +28,7 @@ export const Servicios = () => {
         <div className="info overflow-visible gap-10 flex-col lg:flex-col w-[95dvw] md:w-[70vw] xl:w-[90vw] my-auto flex items-center content-center justify-center pb-4">
           <div className="md:min-w-[23rem] flex flex-col mx-auto items-center overflow-hidden justify-center content-center w-[full]">
             <h2
-              className="font-extrabold text-white w-full mb-4 text-2xl md:text-3xl md:px-8 text-center overflow-hidden"
+              className="font-extrabold text-black w-full mb-4 text-2xl md:text-3xl md:px-8 text-center overflow-hidden"
               data-aos="fade-left"
               data-aos-once="true"
             >
@@ -38,7 +38,7 @@ export const Servicios = () => {
               </span>
             </h2>
             <p
-              className="md:px-6 w-full text-base text-gray-200 text-center overflow-y-hidden"
+              className="md:px-6 w-full text-base text-zinc-800 text-center overflow-y-hidden"
               data-aos="fade-left"
               data-aos-once="true"
               data-aos-delay="200"
@@ -47,8 +47,8 @@ export const Servicios = () => {
             </p>
           </div>
 
-          <div className="max-w-full flex flex-col gap-8 justify-center items-center lg:flex-row">
-            <div className="flex flex-col gap-8 justify-center items-center">
+          <div className="w-[60vw] flex flex-col gap-8 justify-center items-center lg:flex-col">
+
               <p
                 className="text-xl mt-8 md:mt-0 font-bold text-black shadow-xl z-[4] py-4 px-8 bg-white flex justify-center items-center rounded-xl mb-[-3.5rem]"
                 data-aos="fade-left"
@@ -69,10 +69,6 @@ export const Servicios = () => {
                   disableOnInteraction: false,
                 }}
                 className="swiper-cont swiper-cont w-full md:w-[100%] md:min-w-[18rem] rounded-xl"
-                data-aos="flip-left"
-                data-aos-once="true"
-                data-aos-delay="500"
-                data-aos-duration="1000"
               >
                 {informCards.map((card, index) => (
                   <SwiperSlide className="card overflow-hidden" key={index}>
@@ -149,8 +145,8 @@ export const Servicios = () => {
                   </SwiperSlide>
                 ))}
               </Swiper>
-            </div>
-            <div className="flex flex-col gap-8 justify-center items-center">
+           
+
               <p
                 className="text-xl mt-8 md:mt-0 font-bold text-black shadow-xl z-[4] py-4 px-8 bg-white flex justify-center items-center rounded-xl mb-[-3.5rem]"
                 data-aos="fade-left"
@@ -171,10 +167,6 @@ export const Servicios = () => {
                   disableOnInteraction: false,
                 }}
                 className="swiper-cont swiper-cont w-full md:w-[100%] md:min-w-[18rem] rounded-xl"
-                data-aos="flip-left"
-                data-aos-once="true"
-                data-aos-delay="500"
-                data-aos-duration="1000"
               >
                 {informCards.map((card, index) => (
                   <SwiperSlide className="card overflow-hidden" key={index}>
@@ -251,7 +243,7 @@ export const Servicios = () => {
                   </SwiperSlide>
                 ))}
               </Swiper>
-            </div>
+   
           </div>
         </div>
       </div>

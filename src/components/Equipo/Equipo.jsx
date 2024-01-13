@@ -1,5 +1,4 @@
 import { useTranslationHook } from "../../hooks/useI18nTranslation";
-import { useState, useEffect } from "react";
 import { getLeaders } from "../../data/teamMembers";
 import "./Equipo.css";
 export function Equipo() {
@@ -7,15 +6,6 @@ export function Equipo() {
 
   const { t } = useTranslationHook();
 
-  const [isOpen, setIsOpen] = useState(false);
-
-  useEffect(() => {
-    if (isOpen) {
-      document.documentElement.style.overflow = "hidden";
-    } else {
-      document.documentElement.style.overflow = "unset";
-    }
-  }, [isOpen]);
   return (
     <>
       <div
@@ -32,55 +22,41 @@ export function Equipo() {
           </h2>
         </div>
 
-        <div className="team w-[95vw] md:w-[70vw] xl:w-[90vw] bg-white z-[5] flex flex-col justify-center mx-auto p-4 sm:p-8 rounded-xl shadow-2xl gap-4 h-max my-auto">
-          <p className="text-3xl font-bold">Meet our Team Leaders</p>
-          <p className="text-xl">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis
-            quae voluptates eius neque accusamus assumenda inventore modi alias
-            exercitationem totam?
+        <div className="team w-[95vw] md:w-[70vw] xl:w-[60vw] bg-white z-[5] flex flex-col justify-center mx-auto p-4 sm:p-8 rounded-xl shadow-2xl gap-4 h-max my-auto">
+          <div className=""></div>
+          <p className="text-3xl font-bold text-center flex flex-col">
+            Meet our amazing team<span className="text-green-500"> Leaders </span>
           </p>
-          <div className="flex gap-4 h-75% overflow-visible relative flex-col justify-around md:flex-row">
+          <p className="text-lg w-[50vw] mx-auto text-center leading-[1.5rem]">
+            Our leaders are the ones who make this project possible, they are the ones who
+            make sure that everything is in order and that the project is going in the
+            right direction.
+          </p>
+          <div className="flex gap-4 overflow-visible relative justify-center mt-10 pb-6">
             {teamLeaders.map((leader, index) => {
               return (
                 <div
                   key={index}
-                  className="h-125% w-full md:w-1/3 rounded-lg flex flex-col text-center relative overflow-visible"
+                  className="member-card-cont rounded-xl w-[15rem] min-w-[15rem]"
                 >
-                  <div className="member-card shadow-2xl w-full h-[25rem] flex justify-center overflow-hidden relative rounded-xl">
-                    <div className="member-info rounded-xl absolute w-full bottom-0 h-[15rem] pt-[5rem] bg-opacity-80 flex flex-col justify-center">
-                      <p className="text-lg text-white">{leader.name}</p>
-                      <p className="text-white">{leader.role}</p>
-                    </div>
+                  <div className="member-card shadow-2xl w-full flex flex-col justify-center items-center content-center pt-4">
                     <div
-                      className={`leader${index} rounded-full absolute bg-contain bg-no-repeat top-4 h-full w-[80%] aspect-square flex justify-center items-center `}
+                      className={`leader${index} z-[${index}] leader bg-white bg-opacity-10 rounded-full bg-contain bg-center h-[13rem] mb-[1rem] mt-[1rem] min-h-max w-[95%] flex justify-center items-center bg-no-repeat`}
                     ></div>
+                    <div className="leaders-text border-t-[1px] border-green-600 flex flex-col justify-center items-center content-center w-full backdrop-blur-sm py-2 rounded-t-md">
+                      <p className="text-lg text-black font-bold">{leader.name}</p>
+                      <p className="text-green-600 font-medium">{leader.role}</p>
+                    </div>
                   </div>
                   <style>
-                    {" "}
-                    {` .leader${index} { background-image: url(${leader.img}); } `}{" "}
+                    {` .leader${index} { background-image: url(${leader.img}); } `}
                   </style>
-
-                  {/* <div className="h-[25rem] border-black border-b-[20rem]"></div> */}
                 </div>
               );
             })}
           </div>
         </div>
       </div>
-
-      {isOpen && (
-        <div className="animate-fade animate-once animate-ease-in-out z-10 fixed inset-0 bg-black bg-opacity-30 backdrop-blur-sm flex justify-center items-center">
-          <div className="modal-animation rounded-xl shadow-2xl w-1/2 h-1/2 bg-white flex flex-col justify-center items-center content-center relative">
-            <p className="text-2xl font-medium">Leader Information Modal</p>
-            <button
-              className="absolute top-4 right-4 close-button rounded-xl bg-black text-white w-[10rem] h-[3rem]"
-              onClick={() => setIsOpen(false)}
-            >
-              Close
-            </button>
-          </div>
-        </div>
-      )}
     </>
   );
 }

@@ -67,20 +67,20 @@ const Servicios = () => {
           })}
         </Swiper>
       ) : (
-        <div className="flex flex-col gap-8 h-[50%] justify-center content-center items-center">
+        <div className="flex flex-col gap-8 h-[50%] justify-center content-center items-center shadow-2xl">
           {services.map((s, index) => {
             const ServiceImage = Images[s.serviceImage];
             const ServiceBg = Images[s.serviceBg];
 
             return (
-              <div key={index} className="rounded-xl overflow-visible w-full">
-                <p className="flex justify-center items-center text-xl  font-bold z-[2] h-[10%] text-center bg-white py-2 w-full">
+              <div key={index} className="overflow-visible w-full">
+                <p className="flex justify-center items-center text-xl overflow-visible font-bold z-[2] h-[10%] text-center bg-white py-2 w-full">
                   {s.title}
                 </p>
                 <div
-                  className={`services-image-cont w-full flex flex-col justify-center items-center relative text-center overflow-hidden -z-10 services${index} bg-transparent`}
+                  className={`services-image-cont w-full flex flex-col justify-center items-center overflow-visible relative text-center -z-10 services${index} bg-transparent`}
                 >
-                  <div className="services-svg flex w-full h-[25rem]  items-center content-center overflow-visible justify-center rounded-b-xl">
+                  <div className="services-svg flex w-full h-[25rem]  items-center content-center overflow-visible justify-center rounded-xl shadow-2xl">
                     {ServiceImage && (
                       <ServiceImage className="services-img absolute max-h-[100%] overflow-visible" />
                     )}

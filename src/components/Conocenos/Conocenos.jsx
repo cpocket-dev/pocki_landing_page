@@ -9,12 +9,12 @@ const Conocenos = () => {
   return (
     <>
       <div
-        className="features-cont w-full flex flex-col items-center pb-12 h-max lg:h-[100vh] overflow-visible relative"
+        className="features-contw-full lg:rounded-t-xl flex flex-col items-center pb-12 h-max overflow-hidden relative my-auto"
         id="conocenos"
       >
-        <div className="features-top flex flex-col justify-start content-center items-center pt-20 pb-4 overflow-visible">
+        <div className="features-top flex flex-col justify-start content-center items-center pt-20 pb-4 overflow-visible w-full">
           <h2
-            className="info-title mb-8 font-extrabold text-2xl md:text-3xl overflow-visible z-[1] w-[100dvw] pb-4 pt-4 bg-black text-white text-center"
+            className=" shadow-2xl mb-8 font-extrabold text-2xl md:text-3xl overflow-visible z-[1] w-full pb-4 pt-4 bg-black text-white text-center"
             data-aos="fade-left"
             data-aos-once="true"
           >
@@ -23,7 +23,7 @@ const Conocenos = () => {
 
           <div className="information-info flex-col flex w-[95dvw] md:w-[70dvw] items-center justify-center content-center gap-4">
             <h2
-              className="text-white text-center font-extrabold m-auto text-2xl overflow-visible"
+              className="text-black text-center font-extrabold m-auto text-2xl overflow-visible"
               data-aos="fade-left"
               data-aos-once="true"
               data-aos-delay="100"
@@ -32,7 +32,7 @@ const Conocenos = () => {
               <p className="text-green-400">{t("conocenos.tituloSpan")}</p>
             </h2>
             <p
-              className="text-zinc text-center leading-[1.5rem] overflow-visible text-zinc-300"
+              className="text-zinc text-center leading-[1.5rem] overflow-visible text-zinc-800"
               data-aos="fade-left"
               data-aos-once="true"
               data-aos-delay="100"
@@ -44,7 +44,7 @@ const Conocenos = () => {
         </div>
 
         <div
-          className="services-display h-full flex w-[95%] md:w-[70vw] xl:w-[90vw]"
+          className="services-display h-full flex w-[95%] md:w-[70vw] xl:w-[60vw]"
           data-aos="zoom-out"
           data-aos-once="true"
           data-aos-delay="500"

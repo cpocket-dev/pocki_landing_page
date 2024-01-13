@@ -9,15 +9,36 @@ import HeaderLogo from "../../../public/logos/header-logo.svg";
 const Header = () => {
   const { t } = useTranslationHook(); // Hook personalizado para usar i18n
 
+  const [isScrolled, setIsScrolled] = useState(false);
+
   const [isActive, setIsActive] = useState(false);
   const [windowWidth, setWindowWidth] = useState(window.innerWidth);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      const scrollPosition = window.scrollY;
+
+      if (scrollPosition > 100) {
+        setIsScrolled(true);
+      } else {
+        setIsScrolled(false);
+      }
+    }
+
+    window.addEventListener("scroll", handleScroll);
+
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    }
+  }, [])
+
   useEffect(() => {
     if (isActive) {
       document.documentElement.style.overflow = "hidden";
     } else {
       document.documentElement.style.overflow = "unset";
     }
-  }, [isActive])
+  }, [isActive]);
 
   const toggleClass = () => {
     setIsActive(!isActive);
@@ -47,7 +68,7 @@ const Header = () => {
 
   return (
     <>
-      <header className="header-cont w-screen h-[4.1rem] fixed top-0 font-bold z-10">
+      <header className={`header-cont w-screen h-[4.1rem] fixed top-0 font-bold z-10 ${isScrolled ? 'header-shadow' : ''}`}>
         <nav className="header justify-around">
           <div className="logo nav-button absolute">
             <a

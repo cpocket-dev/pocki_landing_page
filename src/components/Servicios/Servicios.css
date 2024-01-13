@@ -2,8 +2,7 @@
   background-color: white;
 }
 
-.information {
-  box-shadow: 1px 0px 20px 13px rgba(0, 0, 0, 0.4);
+/* .information {
   background: linear-gradient(
       317deg,
       #ffd40061 -0.47%,
@@ -15,6 +14,7 @@
 
 .information:after {
   content: "";
+  top: 0;
   position: absolute;
   width: 100%;
   height: 100%;
@@ -24,7 +24,7 @@
   left: 0;
   z-index: 0;
   mix-blend-mode: multiply;
-}
+} */
 
 .info {
   z-index: 1;
