@@ -47,7 +47,7 @@ export const Servicios = () => {
             </p>
           </div>
 
-          <div className="w-[60vw] flex flex-col gap-8 justify-center items-center lg:flex-col">
+          <div className="w-[60vw] flex flex-col gap-8 justify-center items-center lg:flex-col overflow-visible">
 
               <p
                 className="text-xl mt-8 md:mt-0 font-bold text-black shadow-xl z-[4] py-4 px-8 bg-white flex justify-center items-center rounded-xl mb-[-3.5rem]"
@@ -61,14 +61,16 @@ export const Servicios = () => {
               <Swiper
                 slidesPerView={1}
                 cssMode={true}
+                loop={true}
                 direction="horizontal"
                 spaceBetween={20}
                 modules={[Autoplay]}
                 autoplay={{
-                  delay: 3600,
+                  delay: 1800,
                   disableOnInteraction: false,
+                  reverseDirection: true,
                 }}
-                className="swiper-cont swiper-cont w-full md:w-[100%] md:min-w-[18rem] rounded-xl"
+                className="swiper-cont swiper-cont w-full md:w-[100%] md:min-w-[18rem] rounded-xl shadow-2xl"
               >
                 {informCards.map((card, index) => (
                   <SwiperSlide className="card overflow-hidden" key={index}>
@@ -162,11 +164,13 @@ export const Servicios = () => {
                 direction="horizontal"
                 spaceBetween={20}
                 modules={[Autoplay]}
+                loop={true}
+
                 autoplay={{
                   delay: 3600,
                   disableOnInteraction: false,
                 }}
-                className="swiper-cont swiper-cont w-full md:w-[100%] md:min-w-[18rem] rounded-xl"
+                className="swiper-cont swiper-cont w-full md:w-[100%] md:min-w-[18rem] rounded-xl shadow-2xl"
               >
                 {informCards.map((card, index) => (
                   <SwiperSlide className="card overflow-hidden" key={index}>

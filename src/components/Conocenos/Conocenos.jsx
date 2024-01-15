@@ -32,7 +32,7 @@ const Conocenos = () => {
               <p className="text-green-400">{t("conocenos.tituloSpan")}</p>
             </h2>
             <p
-              className="text-zinc text-center leading-[1.5rem] overflow-visible text-zinc-800"
+              className="text-zinc text-center leading-[1.5rem] overflow-visible text-zinc-800 mb-12"
               data-aos="fade-left"
               data-aos-once="true"
               data-aos-delay="100"
@@ -44,7 +44,7 @@ const Conocenos = () => {
         </div>
 
         <div
-          className="services-display h-full flex w-[95%] md:w-[70vw] xl:w-[60vw]"
+          className="services-display h-full flex w-[95%]"
           data-aos="zoom-out"
           data-aos-once="true"
           data-aos-delay="500"

@@ -40,7 +40,7 @@ export function Counter() {
   const { t } = useTranslationHook(); 
 
   // Usamos el hook useLocalStorage para almacenar y recuperar el número de visitas
-  const [visits, setVisits] = useLocalStorage("visitCounter", 26540);
+  const [visits, setVisits] = useLocalStorage("visitCounter", 27104);
 
   // Cuando el componente se monta, incrementamos el número de visitas
   useEffect(() => {

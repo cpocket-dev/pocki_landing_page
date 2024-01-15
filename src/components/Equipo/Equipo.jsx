@@ -37,7 +37,7 @@ export function Equipo() {
               return (
                 <div
                   key={index}
-                  className="member-card-cont rounded-xl w-[15rem] min-w-[15rem]"
+                  className="hover:translate-y-2 hover:scale-105 member-card-cont rounded-xl w-[15rem] min-w-[15rem]"
                 >
                   <div className="member-card shadow-2xl w-full flex flex-col justify-center items-center content-center pt-4">
                     <div

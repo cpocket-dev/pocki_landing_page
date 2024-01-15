@@ -7,7 +7,7 @@ const Inicio = () => {
 
   return (
     <main
-      className="main-cont overflow-hidden pt-[5rem] h-screen text-white flex flex-col justify-center items-center relative mb-20"
+      className="main-cont overflow-hidden pt-[5rem] h-screen text-white flex flex-col justify-center items-center relative mb-20 pb-10"
       id="main"
     >
       <div className="custom-shape-divider-top-1705105930 absolute top-[4rem]">
@@ -34,9 +34,8 @@ const Inicio = () => {
         </svg>
       </div>
 
-
-        <div className="main flex flex-col-reverse lg:flex-row-reverse h-full lg:h-[70%] w-[95vw] justify-center content-center z-[1] overflow-hidden mb-8">
-          {/* <div className="main-image main-section h-[100%] w-full lg:w-[50%] relative overflow-visible">
+      <div className="main flex flex-col-reverse lg:flex-row-reverse h-full lg:h-[70%] w-[95vw] justify-center content-center z-[1] overflow-hidden mb-8">
+        {/* <div className="main-image main-section h-[100%] w-full lg:w-[50%] relative overflow-visible">
           <div
             className="main-image-box h-full w-full bg-contain bg-no-repeat bg-center flex justify-center items-center"
             data-aos="fade-down"
@@ -58,73 +57,72 @@ const Inicio = () => {
             />
           </div>
         </div> */}
-          <div className="mockup overflow-hidden w-[50%] xl:w-[40%] relative before:rounded-xl before:content-[''] border-b-[3px] border-white rounded-b-xl ">
-            <div className="mockup-img flex opacity-0 translate-y-[5rem] overflow-hidden bg-contain h-full w-full relative bg-[bottom] bg-no-repeat"></div>
-            <div className="custom-shape-divider-bottom-1705093195 drop-shadow-lg opacity-80 border-none rounded-xl">
-              <svg
-                data-name="Layer 1"
-                xmlns="http://www.w3.org/2000/svg"
-                viewBox="0 0 1200 120"
-                preserveAspectRatio="none"
-              >
-                <path
-                  d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z"
-                  className="shape-fill"
-                ></path>
-              </svg>
-            </div>
+        <div className="mockup overflow-hidden w-[50%] xl:w-[40%] relative before:rounded-xl before:content-[''] border-b-[3px] border-white rounded-b-xl ">
+          <div className="mockup-img flex opacity-0 translate-y-[5rem] overflow-hidden bg-contain h-full w-full relative bg-[bottom] bg-no-repeat"></div>
+          <div className="custom-shape-divider-bottom-1705093195 drop-shadow-lg opacity-80 border-none rounded-xl">
+            <svg
+              data-name="Layer 1"
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 1200 120"
+              preserveAspectRatio="none"
+            >
+              <path
+                d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z"
+                className="shape-fill"
+              ></path>
+            </svg>
           </div>
-          <div className="main-info w-full overflow-hidden h-full main-section lg:w-[40%]">
-            <p
-              className=" text-center text-gray-200 overflow-visible w-full"
-              data-aos="fade-up"
-              data-aos-once="true"
-            >
-              {t("inicio.subtitulo")}
-            </p>
-            <p
-              className="main-info-text text-center md:text-5xl md:w-full"
+        </div>
+        <div className="main-info w-full overflow-hidden h-full main-section lg:w-[40%]">
+          <p
+            className=" text-center text-gray-200 overflow-visible w-full"
+            data-aos="fade-up"
+            data-aos-once="true"
+          >
+            {t("inicio.subtitulo")}
+          </p>
+          <p
+            className="main-info-text text-center md:text-5xl md:w-full"
+            data-aos="fade-left"
+            data-aos-once="true"
+            data-aos-delay="200"
+          >
+            {t("inicio.titulo")}
+          </p>
+          <p
+            className="main-info-sub text-xl text-center w-full overflow-visible"
+            data-aos="fade-left"
+            data-aos-once="true"
+            data-aos-delay="300"
+          >
+            {" "}
+            <span>{t("inicio.textoSpan1")}</span>
+            {t("inicio.texto")} <span> {t("inicio.textoSpan2")}</span>{" "}
+          </p>
+          <div className="main-info-cta overflow-visible w-[70%]">
+            <a
+              className="cta-button cta1 border-glow h-[18rem] shadow-xl text-center p-8 overflow-visible flex justify-center items-center"
               data-aos="fade-left"
               data-aos-once="true"
-              data-aos-delay="200"
-            >
-              {t("inicio.titulo")}
-            </p>
-            <p
-              className="main-info-sub text-xl text-center w-full overflow-visible"
-              data-aos="fade-left"
-              data-aos-once="true"
-              data-aos-delay="300"
+              data-aos-delay="400"
+              href="https://wa.link/mc6k5u"
+              target="_blank"
+              rel="noopener noreferrer"
             >
               {" "}
-              <span>{t("inicio.textoSpan1")}</span>
-              {t("inicio.texto")} <span> {t("inicio.textoSpan2")}</span>{" "}
-            </p>
-            <div className="main-info-cta overflow-visible w-[70%]">
-              <a
-                className="cta-button cta1 border-glow h-[18rem] shadow-xl text-center p-8 overflow-visible flex justify-center items-center"
-                data-aos="fade-left"
-                data-aos-once="true"
-                data-aos-delay="400"
-                href="https://wa.link/mc6k5u"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
+              <div className="main-image-box4" />
+              <p className="cta-content h-full w-full flex gap-4 items-center justify-center text-2xl flex-col pt-4">
                 {" "}
-                <div className="main-image-box4" />
-                <p className="cta-content h-full w-full flex gap-4 items-center justify-center text-2xl flex-col pt-4">
-                  {" "}
-                  {t("inicio.cta")} <FaWhatsapp className="logo-wpp text-7xl" />
-                </p>{" "}
-                <div className="cta-glow absolute"></div>
-              </a>
-            </div>
+                {t("inicio.cta")} <FaWhatsapp className="logo-wpp text-7xl" />
+              </p>{" "}
+              <div className="cta-glow absolute"></div>
+            </a>
           </div>
         </div>
-        <div className="brands-cont w-full h-[5rem] bg-white flex justify-center items-center gap-[1rem] opacity-0 ">
-          <div className="brand" />
-        </div>
-
+      </div>
+      <div className="brands-cont w-full h-[5rem] bg-white flex justify-center items-center gap-[1rem] opacity-0 ">
+        <div className="brand" />
+      </div>
 
       <div className="custom-shape-divider-bottom-1705183416 absolute bottom-[-1rem]">
         <svg
