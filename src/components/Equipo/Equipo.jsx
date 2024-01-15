@@ -18,19 +18,18 @@ export function Equipo() {
             data-aos="fade-left"
             data-aos-once="true"
           >
-            C-Pocket Team
+            Equipo de C-Pocket
           </h2>
         </div>
 
         <div className="team w-[95vw] md:w-[70vw] xl:w-[60vw] bg-white z-[5] flex flex-col justify-center mx-auto p-4 sm:p-8 rounded-xl shadow-2xl gap-4 h-max my-auto">
           <div className=""></div>
           <p className="text-3xl font-bold text-center flex flex-col">
-            Meet our amazing team<span className="text-green-500"> Leaders </span>
+            Conoce a nuestro increíble equipo de<span className="text-green-500"> Líderes </span>
           </p>
           <p className="text-lg w-[50vw] mx-auto text-center leading-[1.5rem]">
-            Our leaders are the ones who make this project possible, they are the ones who
-            make sure that everything is in order and that the project is going in the
-            right direction.
+            Son quienes hacen posible este proyecto, conoce a cada uno de ellos y su rol en el
+            equipo.
           </p>
           <div className="flex gap-4 overflow-visible relative justify-center mt-10 pb-6">
             {teamLeaders.map((leader, index) => {

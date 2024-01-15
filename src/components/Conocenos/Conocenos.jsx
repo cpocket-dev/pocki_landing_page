@@ -45,10 +45,6 @@ const Conocenos = () => {
 
         <div
           className="services-display h-full flex w-[95%]"
-          data-aos="zoom-out"
-          data-aos-once="true"
-          data-aos-delay="500"
-          data-aos-duration="1000"
         >
           <Services />
         </div>

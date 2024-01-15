@@ -23,13 +23,18 @@ const Servicios = () => {
 
   return (
     <>
-      <div className="flex flex-col lg:flex-row lg:flex-wrap  gap-8 h-[50%] justify-center content-center items-center shadow-2xl">
+      <div className="flex flex-col lg:flex-row lg:flex-wrap  gap-8 h-[50%] justify-center content-center items-center shadow-2xl overflow-hidden">
         {services.map((s, index) => {
           const ServiceImage = Images[s.serviceImage];
           const ServiceBg = Images[s.serviceBg];
 
           return (
-            <div key={index} className="overflow-visible w-full md:w-[80%] lg:w-[40%]">
+            <div key={index} className="overflow-visible w-full md:w-[80%] lg:w-[40%]"
+            data-aos="zoom-out"
+            data-aos-once="true"
+            data-aos-delay="500"
+            data-aos-duration="1000"
+            >
               <p className="flex justify-center items-center text-xl overflow-visible font-bold z-[2] h-[4rem] text-center bg-white py-2 w-full">
                 {s.title}
               </p>

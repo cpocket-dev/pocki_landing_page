@@ -4,13 +4,15 @@ import { Autoplay } from "swiper";
 import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
-import { GetInfo } from "../../data/informCards";
+import { GetCommercial } from "../../data/services/commercial";
+import { GetAssistencial } from "../../data/services/assistencial";
 import { useTranslationHook } from "../../hooks/useI18nTranslation";
 
 export const Servicios = () => {
   const { t } = useTranslationHook();
 
-  const informCards = GetInfo();
+  const commercial = GetCommercial();
+  const assistencial = GetAssistencial();
 
   return (
     <div
@@ -55,7 +57,7 @@ export const Servicios = () => {
                 data-aos-once="true"
                 data-aos-delay="200"
               >
-                {t("servicios.wrapper1")}
+                Servicios Corporativos
               </p>
 
               <Swiper
@@ -72,7 +74,7 @@ export const Servicios = () => {
                 }}
                 className="swiper-cont swiper-cont w-full md:w-[100%] md:min-w-[18rem] rounded-xl shadow-2xl"
               >
-                {informCards.map((card, index) => (
+                {commercial.map((card, index) => (
                   <SwiperSlide className="card overflow-hidden" key={index}>
                     <div className="swiper-card overflow-hidden bg-white h-[19.5rem] md:h-[26rem] border-solid ">
                       <div className="swiper-image-cont flex content-center items-center">
@@ -155,7 +157,7 @@ export const Servicios = () => {
                 data-aos-once="true"
                 data-aos-delay="200"
               >
-                {t("servicios.wrapper2")}
+                Servicios Asistenciales
               </p>
 
               <Swiper
@@ -172,7 +174,7 @@ export const Servicios = () => {
                 }}
                 className="swiper-cont swiper-cont w-full md:w-[100%] md:min-w-[18rem] rounded-xl shadow-2xl"
               >
-                {informCards.map((card, index) => (
+                {assistencial.map((card, index) => (
                   <SwiperSlide className="card overflow-hidden" key={index}>
                     <div className="swiper-card overflow-hidden bg-white h-[19.5rem] md:h-[26rem] border-solid ">
                       <div className="swiper-image-cont flex content-center items-center">
@@ -195,14 +197,7 @@ export const Servicios = () => {
                                         opacity: 1;
                                     }
 
-                                    .image${card.id} {
-                                        background-image: url(${card.background});
-                                        width: 100%;
-                                        margin-left: auto;
-                                        margin-right: auto;
-                                        background-size: cover;
-                                        background-position: center;
-                                    }
+                                    
                                   
                                     .swiper-image-char {
                                       width: 100%;
@@ -212,12 +207,7 @@ export const Servicios = () => {
                                       border-radius: 50%;
                                     }
                                   
-                                    .card${card.id} {
-                                      background-image: url(${card.img});
-                                      background-size: contain;
-                                      background-repeat: no-repeat;
-                                      background-position: center;
-                                    }
+                               
                                   
                                     .information-cont {
                                         width: 100dvw;
