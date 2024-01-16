@@ -50,9 +50,9 @@ const Servicios = () => {
                   )}
                 </div>
                 <div
-                  className={`services-text services-text${index} z-[1] text-base font-extralight overflow-visible rounded-lg max-w-[100%]`}
+                  className={`services-text services-text${index} z-[1] text-base font-extralight p-2 overflow-visible rounded-lg max-w-[100%]`}
                 >
-                  <p className="services-text-desk shadow-xl h-[6rem] overflow-visible flex justify-center content-center items-center rounded-xl p-3 w-[95%] mx-auto border-2 text-white border-white">
+                  <p className="services-text-desk shadow-xl md:h-[8rem] overflow-visible flex justify-center content-center items-center rounded-xl p-3 w-[95%] mx-auto border-2 text-white border-white">
                     {s.text}
                   </p>
                 </div>

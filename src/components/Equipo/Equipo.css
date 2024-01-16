@@ -27,7 +27,9 @@
     border-top: 3px solid black;
   }
 
-.member-card {
+.member-card0,
+.member-card1,
+.member-card2 {
     background-image: url(/src/assets/backgrounds/bg-texture.png);
     background-position: 0% 0%;
     background-size: 16rem;

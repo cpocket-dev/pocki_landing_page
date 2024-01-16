@@ -29,7 +29,7 @@ const Conocenos = () => {
               data-aos-delay="100"
             >
               {t("conocenos.titulo")}{" "}
-              <p className="text-green-400">{t("conocenos.tituloSpan")}</p>
+              <p className="text-green-500">{t("conocenos.tituloSpan")}</p>
             </h2>
             <p
               className="text-zinc text-center leading-[1.5rem] overflow-visible text-zinc-800 mb-12"

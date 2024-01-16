@@ -15,10 +15,7 @@ export const Servicios = () => {
   const assistencial = GetAssistencial();
 
   return (
-    <div
-      className="flex flex-col overflow-visible"
-      id="servicios"
-    >
+    <div className="flex flex-col overflow-visible" id="servicios">
       <div className="information relative flex flex-col h-full justify-center items-center gap-8 pt-4 pb-12 xl:overflow-hidden">
         <h2
           className="services-title shadow-2xl font-extrabold text-2xl md:text-3xl py-4 text-white flex justify-center mt-16 items-center overflow-visible z-[1] w-[100dvw] bg-black"
@@ -49,42 +46,45 @@ export const Servicios = () => {
             </p>
           </div>
 
-          <div className="w-[95vw] md:w-[70vw] xl:w-[40vw] flex flex-col gap-8 justify-center items-center lg:flex-col overflow-visible">
+          <div className="w-[95vw] md:w-[70vw] xl:w-[60vw] h-max flex flex-col gap-8 justify-center items-center lg:flex-col overflow-visible">
 
-              <p
-                className="text-xl mt-8 md:mt-0 font-bold text-black shadow-xl z-[4] py-4 px-8 bg-white flex justify-center items-center rounded-xl mb-[-3.5rem]"
-                data-aos="fade-left"
-                data-aos-once="true"
-                data-aos-delay="200"
-              >
-                Servicios Corporativos
-              </p>
+            <p
+              className="text-xl mt-8 md:mt-0 font-bold text-black shadow-xl z-[4] py-4 px-8 bg-white flex justify-center items-center rounded-xl mb-[-3.5rem]"
+              data-aos="fade-right"
+              data-aos-once="true"
+              data-aos-delay="200"
+            >
+              Servicios Corporativos
+            </p>
 
-              <Swiper
-                slidesPerView={1}
-                cssMode={true}
-                loop={true}
-                direction="horizontal"
-                spaceBetween={20}
-                modules={[Autoplay]}
-                autoplay={{
-                  delay: 1800,
-                  disableOnInteraction: false,
-                  reverseDirection: true,
-                }}
-                className="swiper-cont swiper-cont w-full md:w-[100%] md:min-w-[18rem] rounded-xl shadow-2xl"
-              >
-                {commercial.map((card, index) => (
-                  <SwiperSlide className="card overflow-hidden" key={index}>
-                    <div className="swiper-card overflow-hidden bg-white h-[19.5rem] md:h-[26rem] border-solid ">
-                      <div className="swiper-image-cont flex content-center items-center">
-                        <div
-                          className={`swiper-image-bg image${card.id} h-[12rem] md:h-[15rem]`}
-                          alt={card.title}
-                        />
-                      </div>
-                      <style>
-                        {`
+            <Swiper
+              slidesPerView={1}
+              cssMode={true}
+              loop={true}
+              direction="horizontal"
+              spaceBetween={20}
+              modules={[Autoplay]}
+              autoplay={{
+                delay: 1800,
+                disableOnInteraction: false,
+                reverseDirection: true,
+              }}
+              className="swiper-cont flex justify-center w-full md:w-[100%] md:min-w-[18rem] border-t-2 border-black rounded-xl shadow-2xl h-[23rem]"
+              data-aos="fade-right"
+              data-aos-once="true"
+              data-aos-delay="300"
+            >
+              {commercial.map((card, index) => (
+                <SwiperSlide className="card overflow-hidden" key={index}>
+                  <div className="absolute bottom-6 w-full overflow-visible bg-white border-solid ">
+                    <div className="swiper-image-cont flex content-center items-center">
+                      <div
+                        className={`swiper-image-bg image${card.id}`}
+                        alt={card.title}
+                      />
+                    </div>
+                    <style>
+                      {`
                                     .swiper-button-next,
                                     .swiper-button-prev {
                                         color: #fff;
@@ -130,61 +130,62 @@ export const Servicios = () => {
                                         background-color: white;
                                     }
                                 `}
-                      </style>
-                      <div className="card-information flex flex-col items-center">
-                        <h3 className="px-5 pt-5 text-xl font-bold text-center pb-1">
-                          {card.title}
-                        </h3>
-                        <p className="px-5 pb-5 leading-4 text-center">
-                          {card.text}
-                        </p>
-                        <button
-                          type="button"
-                          className="bg-lime-300 w-[9.5rem] text-s p-1 hidden md:block"
-                        >
-                          Próximamente...
-                        </button>
-                      </div>
+                    </style>
+                    <div className="card-information flex flex-col items-center">
+                      <h3 className="px-5 pt-5 text-xl font-bold text-center pb-1">
+                        {card.title}
+                      </h3>
+                      <p className="px-5 pb-5 leading-4 text-center">
+                        {card.text}
+                      </p>
+                      <button
+                        type="button"
+                        className="bg-green-500 text-white rounded-md  w-[9.5rem] text-s p-1"
+                      >
+                        Próximamente...
+                      </button>
                     </div>
-                  </SwiperSlide>
-                ))}
-              </Swiper>
-           
+                  </div>
+                </SwiperSlide>
+              ))}
+            </Swiper>
 
-              <p
-                className="text-xl mt-8 md:mt-0 font-bold text-black shadow-xl z-[4] py-4 px-8 bg-white flex justify-center items-center rounded-xl mb-[-3.5rem]"
-                data-aos="fade-left"
-                data-aos-once="true"
-                data-aos-delay="200"
-              >
-                Servicios Asistenciales
-              </p>
+            <p
+              className="text-xl mt-8 md:mt-0 font-bold text-black shadow-xl z-[4] py-4 px-8 bg-white flex justify-center items-center rounded-xl mb-[-3.5rem]"
+              data-aos="fade-left"
+              data-aos-once="true"
+              data-aos-delay="200"
+            >
+              Servicios Asistenciales
+            </p>
 
-              <Swiper
-                slidesPerView={1}
-                cssMode={true}
-                direction="horizontal"
-                spaceBetween={20}
-                modules={[Autoplay]}
-                loop={true}
-
-                autoplay={{
-                  delay: 3600,
-                  disableOnInteraction: false,
-                }}
-                className="swiper-cont swiper-cont w-full md:w-[100%] md:min-w-[18rem] rounded-xl shadow-2xl"
-              >
-                {assistencial.map((card, index) => (
-                  <SwiperSlide className="card overflow-hidden" key={index}>
-                    <div className="swiper-card overflow-hidden bg-white h-[19.5rem] md:h-[26rem] border-solid ">
-                      <div className="swiper-image-cont flex content-center items-center">
-                        <div
-                          className={`swiper-image-bg image${card.id} h-[12rem] md:h-[15rem]`}
-                          alt={card.title}
-                        />
-                      </div>
-                      <style>
-                        {`
+            <Swiper
+              slidesPerView={1}
+              cssMode={true}
+              direction="horizontal"
+              spaceBetween={20}
+              modules={[Autoplay]}
+              loop={true}
+              autoplay={{
+                delay: 3600,
+                disableOnInteraction: false,
+              }}
+              className="swiper-cont flex justify-center w-full md:w-[100%] md:min-w-[18rem] border-t-2 border-black rounded-xl shadow-2xl h-[23rem]"
+              data-aos="fade-left"
+              data-aos-once="true"
+              data-aos-delay="300"
+            >
+              {assistencial.map((card, index) => (
+                <SwiperSlide className="card overflow-hidden" key={index}>
+                  <div className="absolute bottom-6 w-full overflow-visible bg-white border-solid ">
+                    <div className="swiper-image-cont flex content-center items-center">
+                      <div
+                        className={`swiper-image-bg image${card.id}`}
+                        alt={card.title}
+                      />
+                    </div>
+                    <style>
+                      {`
                                     .swiper-button-next,
                                     .swiper-button-prev {
                                         color: #fff;
@@ -218,26 +219,25 @@ export const Servicios = () => {
                                         background-color: white;
                                     }
                                 `}
-                      </style>
-                      <div className="card-information flex flex-col items-center">
-                        <h3 className="px-5 pt-5 text-xl font-bold text-center pb-1">
-                          {card.title}
-                        </h3>
-                        <p className="px-5 pb-5 leading-4 text-center">
-                          {card.text}
-                        </p>
-                        <button
-                          type="button"
-                          className="bg-lime-300 w-[9.5rem] text-s p-1 hidden md:block"
-                        >
-                          Próximamente...
-                        </button>
-                      </div>
+                    </style>
+                    <div className="card-information flex flex-col items-center">
+                      <h3 className="px-5 pt-5 text-xl font-bold text-center pb-1">
+                        {card.title}
+                      </h3>
+                      <p className="px-5 pb-5 leading-4 text-center">
+                        {card.text}
+                      </p>
+                      <button
+                        type="button"
+                        className="bg-green-500 text-white rounded-md  w-[9.5rem] text-s p-1"
+                      >
+                        Próximamente...
+                      </button>
                     </div>
-                  </SwiperSlide>
-                ))}
-              </Swiper>
-   
+                  </div>
+                </SwiperSlide>
+              ))}
+            </Swiper>
           </div>
         </div>
       </div>

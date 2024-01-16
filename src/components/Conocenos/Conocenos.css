@@ -125,7 +125,7 @@
     #ffd40061 -0.47%,
     rgb(255 255 255 / 0%) 77%
   ),
-  linear-gradient(161deg, #005201 9.39%, rgba(255, 255, 255, 0) 83.29%),
+  linear-gradient(161deg, #0d9c00 9.39%, rgba(255, 255, 255, 0) 83.29%),
   linear-gradient(0deg, #36cc34, #6b6b6b);
   background-size: 200% 200%; /* Increase the background size for a smoother transition */
   animation: rotateGradient 1.5s ease-in-out infinite alternate; /* Adjust time as needed */
