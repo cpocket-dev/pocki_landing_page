@@ -35,6 +35,12 @@
     background-size: 16rem;
 }
 
+@media (min-width: 1270px) {
+  .member-card1 {
+  transform: scale(1.16);  
+  }
+}
+
 .member-card-cont {
   transition: all 0.3s ease-in-out;
   overflow: visible;

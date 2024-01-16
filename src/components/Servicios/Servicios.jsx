@@ -46,7 +46,7 @@ export const Servicios = () => {
             </p>
           </div>
 
-          <div className="w-[95vw] md:w-[70vw] xl:w-[60vw] h-max flex flex-col gap-8 justify-center items-center lg:flex-col overflow-visible">
+          <div className="w-[95vw] md:w-[70vw] lg:w-[55vw] xl:w-[50vw] 2xl:w-[40vw] h-max flex flex-col gap-8 justify-center items-center lg:flex-col overflow-visible">
 
             <p
               className="text-xl mt-8 md:mt-0 font-bold text-black shadow-xl z-[4] py-4 px-8 bg-white flex justify-center items-center rounded-xl mb-[-3.5rem]"
@@ -69,7 +69,7 @@ export const Servicios = () => {
                 disableOnInteraction: false,
                 reverseDirection: true,
               }}
-              className="swiper-cont flex justify-center w-full md:w-[100%] md:min-w-[18rem] border-t-2 border-black rounded-xl shadow-2xl h-[23rem]"
+              className="swiper-cont flex justify-center w-full md:w-[100%] md:min-w-[18rem] border-t-2 border-black rounded-xl shadow-2xl h-[27rem]"
               data-aos="fade-right"
               data-aos-once="true"
               data-aos-delay="300"

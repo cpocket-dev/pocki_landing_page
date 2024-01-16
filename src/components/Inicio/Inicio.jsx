@@ -6,6 +6,7 @@ import Chart from "../../assets/animatedIcons/chart.json";
 import Analitycs from "../../assets/animatedIcons/analytics.json";
 import Articles from "../../assets/animatedIcons/articles.json";
 import Whatsapp from "../../assets/animatedIcons/whatsapp.json";
+import Times from "../../assets/animatedIcons/times.json";
 
 const Inicio = () => {
   const { t } = useTranslationHook();
@@ -140,9 +141,9 @@ const Inicio = () => {
         </div>
       </main>
 
-      <div className="stats-icons w-full flex justify-center gap-x-4 gap-y-12 flex-wrap items-center content-center py-4 z-20 h-max bg-white overflow-visible translate-y-14 lg:w-[75vw] mx-auto pointer-events-none select-none">
-        <div className="icon-cont h-max w-[10rem] sm:w-[30%] overflow-visible flex flex-col justify-center items-center content-center gap-4">
-          <div className="icon h-[5rem] bg-white rounded-full p-2 aspect-square border-4 border-green-500 shadow-2xl flex ">
+      <div className="stats-icons w-full flex justify-center gap-x-4 gap-y-12 flex-wrap items-center content-center py-4 z-20 h-max bg-white overflow-visible translate-y-14 lg:w-[90vw] mx-auto pointer-events-none select-none">
+        <div className="icon-cont h-max w-[10rem] sm:w-[20%] overflow-visible flex flex-col lg:flex-row justify-center items-center content-center gap-4">
+          <div className="icon h-[5rem] min-w-[5rem] bg-white rounded-full p-2 aspect-square border-4 border-green-500 shadow-2xl flex ">
             <Lottie
               options={{ animationData: Chart }}
               speed={0.7}
@@ -155,8 +156,8 @@ const Inicio = () => {
           </div>
         </div>
 
-        <div className="icon-cont h-max w-[10rem] sm:w-[30%] overflow-visible flex flex-col justify-center items-center content-center gap-4">
-          <div className="icon h-[5rem] bg-white rounded-full p-2 aspect-square border-4 border-green-500 shadow-2xl flex ">
+        <div className="icon-cont h-max w-[10rem] sm:w-[20%] overflow-visible flex flex-col lg:flex-row justify-center items-center content-center gap-4">
+          <div className="icon h-[5rem] min-w-[5rem] bg-white rounded-full p-2 aspect-square border-4 border-green-500 shadow-2xl flex ">
             <Lottie
               options={{ animationData: Analitycs }}
               speed={0.7}
@@ -169,8 +170,8 @@ const Inicio = () => {
           </div>
         </div>
 
-        <div className="icon-cont h-max w-[10rem] sm:w-[30%] overflow-visible flex flex-col justify-center items-center content-center gap-4">
-          <div className="icon h-[5rem] bg-white rounded-full p-2 aspect-square border-4 border-green-500 shadow-2xl flex ">
+        <div className="icon-cont h-max w-[10rem] sm:w-[20%] overflow-visible flex flex-col lg:flex-row justify-center items-center content-center gap-4">
+          <div className="icon h-[5rem] min-w-[5rem] bg-white rounded-full p-2 aspect-square border-4 border-green-500 shadow-2xl flex ">
             <Lottie
               options={{ animationData: Articles }}
               speed={0.9}
@@ -180,6 +181,20 @@ const Inicio = () => {
           <div className="stat-text  text-green-500 text-center overflow-visible">
             <p className="text-5xl font-extrabold overflow-visible">10+</p>
             <p className="font-semibold overflow-visible">Artículos</p>
+          </div>
+        </div>
+
+        <div className="icon-cont h-max w-[10rem] sm:w-[20%] overflow-visible flex flex-col lg:flex-row justify-center items-center content-center gap-4">
+          <div className="icon h-[5rem] min-w-[5rem] bg-white rounded-full p-2 aspect-square border-4 border-green-500 shadow-2xl flex ">
+            <Lottie
+              options={{ animationData: Times }}
+              speed={0.9}
+              style={chartStyle}
+            />
+          </div>
+          <div className="stat-text  text-green-500 text-center overflow-visible">
+            <p className="text-5xl font-extrabold overflow-visible">24/7</p>
+            <p className="font-semibold overflow-visible">Disponibilidad</p>
           </div>
         </div>
       </div>

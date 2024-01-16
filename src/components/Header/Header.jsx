@@ -113,6 +113,15 @@ const Header = () => {
             </li>
             <li className={`nav-li ${isActive ? "display-li" : ""}`}>
               <a
+                className="nav-button nav-li-button prensa-button"
+                href="#prensa"
+                onClick={menuActions}
+              >
+                Prensa
+              </a>
+            </li>
+            <li className={`nav-li ${isActive ? "display-li" : ""}`}>
+              <a
                 className="nav-button history-button nav-li-button"
                 href="#nosotros"
                 onClick={menuActions}

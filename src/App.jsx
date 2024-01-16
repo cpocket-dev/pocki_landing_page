@@ -5,6 +5,7 @@ import Conocenos from "./components/Conocenos/Conocenos";
 import { Servicios } from "./components/Servicios/Servicios";
 import { Equipo } from "./components/Equipo/Equipo";
 import { Footer } from "./components/Footer/Footer";
+import { Prensa } from "./components/Prensa/Prensa";
 
 function App() {
   Aos.init();
@@ -17,6 +18,7 @@ function App() {
         <div className="bg-">
           <Conocenos />
           <Servicios />
+          <Prensa />
         </div>
       </section>
       <Equipo />

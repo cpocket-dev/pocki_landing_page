@@ -148,6 +148,11 @@
     transition-delay: 600ms;
   }
 
+  .display-li:nth-child(6) {
+    transform: translateX(0);
+    transition-delay: 750ms;
+  }
+
   .nav-button {
     width: 100%;
   }

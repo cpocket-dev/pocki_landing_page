@@ -27,7 +27,7 @@ export function Equipo() {
           <p className="text-3xl font-bold text-center flex flex-col">
             Conoce a nuestro increíble equipo:<span className="text-green-500"> Líderes </span>
           </p>
-          <p className="text-lg w-[50vw] mx-auto text-center leading-[1.5rem]">
+          <p className="text-lg w-full mx-auto text-center leading-[1.5rem]">
             Son quienes hacen posible este proyecto, conoce a cada uno de ellos y su rol en el
             equipo.
           </p>

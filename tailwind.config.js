@@ -16,7 +16,10 @@ export default {
       },
       width: {
         'swiperCont': '45rem',
-      }
+      },
+      screens: {
+        'xs': '475px',
+      },
     },
   },
   plugins: [],
