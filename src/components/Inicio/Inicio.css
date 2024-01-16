@@ -212,11 +212,11 @@
 
 .main-info-sub {
   color: rgb(179, 179, 179);
+  
 }
 
 .main-info-sub span {
-  color: rgb(255, 255, 255);
-  -webkit-text-stroke: 0.3px;
+  -webkit-text-stroke: 0.5px;
 }
 
 .main-info-cta {

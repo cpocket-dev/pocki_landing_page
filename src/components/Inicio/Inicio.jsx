@@ -7,10 +7,10 @@ const Inicio = () => {
 
   return (
     <main
-      className="main-cont overflow-hidden pt-[5rem] h-screen text-white flex flex-col justify-center items-center relative mb-20 pb-10"
+      className="main-cont overflow-hidden pt-[5rem] h-screen md:h-[110vh] lg:h-screen text-white flex flex-col justify-center items-center relative mb-20 pb-10"
       id="main"
     >
-      <div className="custom-shape-divider-top-1705105930 absolute top-[4rem]">
+      <div className="scale-y-50 translate-y-[-1.5rem] md:scale-y-75 md:translate-y-[-1rem] lg:scale-y-100 lg:translate-y-100 custom-shape-divider-top-1705105930 absolute top-[4rem]">
         <svg
           data-name="Layer 1"
           xmlns="http://www.w3.org/2000/svg"
@@ -34,30 +34,8 @@ const Inicio = () => {
         </svg>
       </div>
 
-      <div className="main flex flex-col-reverse lg:flex-row-reverse h-full lg:h-[70%] w-[95vw] justify-center content-center z-[1] overflow-hidden mb-8">
-        {/* <div className="main-image main-section h-[100%] w-full lg:w-[50%] relative overflow-visible">
-          <div
-            className="main-image-box h-full w-full bg-contain bg-no-repeat bg-center flex justify-center items-center"
-            data-aos="fade-down"
-            data-aos-once="true"
-          />
-          <div
-            className="main-image-backdrop"
-            data-aos="zoom-in"
-            data-aos-once="true"
-            data-aos-delay="450"
-            alt="pocki"
-          >
-            <div
-              className="main-image-box2"
-              data-aos="zoom-in"
-              data-aos-once="true"
-              data-aos-delay="100"
-              alt=""
-            />
-          </div>
-        </div> */}
-        <div className="mockup overflow-hidden w-[50%] xl:w-[40%] relative before:rounded-xl before:content-[''] border-b-[3px] border-white rounded-b-xl ">
+      <div className="main flex flex-col-reverse lg:flex-row-reverse items-center h-full lg:h-[70%] w-[95vw] pt-8 lg:pt-0 justify-end lg:justify-center content-center z-[1] overflow-hidden mb-8 relative">
+        <div className="mockup overflow-hidden w-full md:w-[60%] bottom-0 lg:w-[50%] xl:w-[40%] absolute lg:relative before:rounded-xl before:content-[''] border-b-[3px] border-white rounded-b-xl h-[50%] lg:h-full">
           <div className="mockup-img flex opacity-0 translate-y-[5rem] overflow-hidden bg-contain h-full w-full relative bg-[bottom] bg-no-repeat"></div>
           <div className="custom-shape-divider-bottom-1705093195 drop-shadow-lg opacity-80 border-none rounded-xl">
             <svg
@@ -73,16 +51,10 @@ const Inicio = () => {
             </svg>
           </div>
         </div>
-        <div className="main-info w-full overflow-hidden h-full main-section lg:w-[40%]">
+
+        <div className="main-info w-full overflow-hidden lg:h-full main-section lg:w-[40%]">
           <p
-            className=" text-center text-gray-200 overflow-visible w-full"
-            data-aos="fade-up"
-            data-aos-once="true"
-          >
-            {t("inicio.subtitulo")}
-          </p>
-          <p
-            className="main-info-text text-center md:text-5xl md:w-full"
+            className="main-info-text text-center text-3xl md:text-5xl md:w-full"
             data-aos="fade-left"
             data-aos-once="true"
             data-aos-delay="200"
@@ -90,18 +62,18 @@ const Inicio = () => {
             {t("inicio.titulo")}
           </p>
           <p
-            className="main-info-sub text-xl text-center w-full overflow-visible"
+            className="main-info-sub text-xl text-center w-full overflow-visible text-white"
             data-aos="fade-left"
             data-aos-once="true"
             data-aos-delay="300"
           >
             {" "}
-            <span>{t("inicio.textoSpan1")}</span>
-            {t("inicio.texto")} <span> {t("inicio.textoSpan2")}</span>{" "}
+            {t("inicio.textoSpan1")}
+            <span>{t("inicio.texto")}</span> {t("inicio.textoSpan2")}{" "}
           </p>
           <div className="main-info-cta overflow-visible w-[70%]">
             <a
-              className="cta-button cta1 border-glow h-[18rem] shadow-xl text-center p-8 overflow-visible flex justify-center items-center"
+              className="cta-button cta1 border-glow h-[13rem] lg:h-[18rem] shadow-xl text-center p-8 overflow-visible flex justify-center items-center"
               data-aos="fade-left"
               data-aos-once="true"
               data-aos-delay="400"
@@ -124,7 +96,7 @@ const Inicio = () => {
         <div className="brand" />
       </div>
 
-      <div className="custom-shape-divider-bottom-1705183416 absolute bottom-[-1rem]">
+      <div className="rotate-180 scale-y-50 translate-y-[1.5rem] md:scale-y-75 md:translate-y-[1rem] lg:scale-y-100 lg:translate-y-100 custom-shape-divider-bottom-1705183416 absolute bottom-[-1rem]">
         <svg
           data-name="Layer 1"
           xmlns="http://www.w3.org/2000/svg"
