@@ -39,9 +39,15 @@ export const ServiciosAsistencial = () => {
           >
             <div className="w-[90vw] md:max-w-[50rem] overflow-hidden">
               {card.text}
-              <div className="overflow-hidden h-[28rem] mx-auto w-max">
-              <video src={getVideoData(card.link)} className="overflow-hidden" autoPlay loop muted />
-              </div>
+              {/* <div className="overflow-hidden h-[28rem] mx-auto w-max">
+                <video
+                  src={getVideoData(card.link)}
+                  className="overflow-hidden"
+                  autoPlay
+                  loop
+                  muted
+                />
+              </div> */}
             </div>
           </Modal>
         ))}
