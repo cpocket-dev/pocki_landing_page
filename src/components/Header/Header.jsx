@@ -77,7 +77,7 @@ const Header = () => {
               type="button"
             >
               <img
-                className="h-full w-full logo"
+                className="h-full w-full logo mx-auto"
                 src={HeaderLogo}
                 alt={t("header.logoAlt")}
               />
@@ -139,11 +139,11 @@ const Header = () => {
               </a>
             </li>
           </ul>{" "}
-          <div className="counter scale-75 md:scale-100 overflow-visible flex justify-center items-center absolute md:block left-0">
+          <div className="counter scale-75 lg:scale-100 overflow-visible flex justify-center items-center absolute lg:block left-0">
             {" "}
             <Counter className="counter1" />{" "}
           </div>
-          <div className="menu-actions z-10 md:hidden">
+          <div className="menu-actions z-10 lg:hidden">
             <GiHamburgerMenu
               className={`nav-menu open-menu ${isActive ? "menu-active" : ""}`}
               type="button"

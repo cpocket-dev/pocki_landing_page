@@ -2,74 +2,74 @@
   "data": {
     "dataCards": {
       "card1": {
-        "titulo": "Transazioni",
-        "texto": "Facilitiamo transazioni come trasferimenti, ricariche, acquisto di abbonamenti, scommesse sportive, certificati e altro ancora, tutto da WhatsApp."
+        "titulo": "Transacciones",
+        "texto": "Facilitamos transacciones como transferencias, recargas, compra de membresias, apuestas deportivas, certificados y más, todo desde Whatsapp."
       },
       "card2": {
-        "titulo": "Servizi Commerciali",
-        "texto": "Ci occupiamo di strategie di marketing e comunicazione per connetterci con pubblici specifici in eventi come lanci e offerte."
+        "titulo": "Servicios Cormerciales",
+        "texto": "Nos encargamos de estrategias de marketing y comunicación para conectar con audiencias específicas en eventos como lanzamientos y ofertas."
       },
       "card3": {
-        "titulo": "Servizi Assistenziali",
-        "texto": "Pocki risponde alle domande frequenti sul tuo modello di business e facilita l'interazione con i clienti con conversazioni 'più umane' in modo efficiente 24/7."
+        "titulo": "Servicios Asistenciales",
+        "texto": "Pocki resuelve preguntas frecuentes de su modelo de negocio y facilita la interacción con clientes con conversaciones “más humanas” de manera eficiente 24/7."
       },
       "card4": {
-        "titulo": "Efficienza Operativa",
-        "texto": "Offriamo la nostra esperienza tecnologica per affrontare le esigenze aziendali. Valutiamo e proponiamo soluzioni personalizzate."
+        "titulo": "Eficiencia Operacional",
+        "texto": "Ofrecemos nuestra experiencia tecnológica para abordar las necesidades empresariales. Evaluamos y proponemos soluciones a medida."
       }
     },
     "commercial": {
       "card1": {
-        "titulo": "Servizi Pubblici",
-        "texto": "Avrai solo bisogno di una foto del codice a barre o del riferimento di pagamento della tua bolletta dei servizi pubblici."
+        "titulo": "Servicios Públicos",
+        "texto": "Solo necesitarás foto del código de barras o referencia de pago de tu factura de servicios públicos."
       },
       "card2": {
-        "titulo": "Acquisto di Pin",
-        "texto": "Potrai scegliere tra una vasta varietà di pin che abbiamo per te."
+        "titulo": "Compra de pines",
+        "texto": "Podrás escoger entre una gran variedad de pines que tenemos para tí."
       },
       "card3": {
-        "titulo": "Ricariche Mobili",
-        "texto": "Ricarica facilmente il tuo cellulare in qualsiasi momento e luogo."
+        "titulo": "Recargas Móviles",
+        "texto": "Recarga fácilmente tu celular en cualquier momento y lugar que desees."
       },
       "card4": {
-        "titulo": "Acquisti Online",
-        "texto": "Effettua acquisti online in sicurezza con le nostre carte virtuali."
+        "titulo": "Compras en línea",
+        "texto": "Realiza compras seguras en línea con nuestras tarjetas virtuales."
       },
       "card5": {
-        "titulo": "Invio di Denaro",
-        "texto": "Invia denaro ai tuoi cari in modo rapido e sicuro."
+        "titulo": "Envío de dinero",
+        "texto": "Envía dinero a tus seres queridos de forma rápida y segura"
       }
     }
   },
   "header": {
-    "logoAlt": "logo di pocki",
+    "logoAlt": "pocki logo",
     "nav": {
-      "inicio": "home",
-      "servicios": "servizi",
-      "conocenos": "conoscici",
-      "nosotros": "il nostro team",
-      "contacto": "Contatto"
+      "inicio": "inicio",
+      "servicios": "servicios",
+      "conocenos": "conócenos",
+      "nosotros": "nuestro equipo",
+      "contacto": "Contacto"
     },
-    "contador": "interazioni"
+    "contador": "interacciones usuarios"
   },
   "inicio": {
-    "titulo": "Pocki, il tuo Assistente Virtuale di Fiducia",
-    "subtitulo": "incontra il tuo futuro assistente",
-    "texto": ", scopri il vero potenziale della",
-    "textoSpan1": "Facile da Gestire",
-    "textoSpan2": "Intelligenza Artificiale.",
-    "cta": "Chatta con Pocki"
+    "titulo": "Pocki, Tu asistente virtual de confianza",
+    "subtitulo": "conoce tu futuro asistente",
+    "texto": ", descubre el verdadero potencial",
+    "textoSpan1": "Fácil de manejar",
+    "textoSpan2": " de la Inteligencia Artificial.",
+    "cta": "Chatea con Pocki"
   },
   "conocenos": {
-    "nombreSeccion": "Conoscici",
-    "titulo": "Comodità, personalizzazione e servizio eccezionale:",
-    "tituloSpan": "La tua Esperienza Unica",
-    "texto": "Pocki non si limita a eseguire operazioni finanziarie, ma offre anche un insieme di servizi basati sul suo costante apprendimento delle tue preferenze e comportamenti. Si tratta di comodità, personalizzazione, servizio e assistenza eccezionali."
+    "nombreSeccion": "QUÉ TENEMOS PARA TÍ",
+    "titulo": "Comodidad, personalización y servicio excepcional:",
+    "tituloSpan": "Tu experiencia única",
+    "texto": "Pocki no solo realiza operaciones financieras, sino que también ofrece un conjunto de servicios basados en su aprendizaje constante de sus preferencias y comportamientos. Se trata de comodidad, personalización, servicio y asistencia excepcional"
   },
   "servicios": {
-    "nombreSeccion": "Servizi",
-    "titulo": "Ti invitiamo a scoprire le facilitazioni che",
-    "tituloSpan": "Pocki porta per te",
-    "texto": "Il nostro assistente virtuale offre efficienza e precisione nelle attività quotidiane, nella programmazione di appuntamenti, nei promemoria e molto altro, migliorando così la tua produttività!"
+    "nombreSeccion": "CÓMO FACILITAMOS TU VIDA",
+    "titulo": "Te invitamos a conocer las facilidades que",
+    "tituloSpan": "Pocki trae para tí",
+    "texto": "Nuestro asistente virtual ofrece eficiencia y precisión en tareas diarias, programación de citas, recordatorios y mucho más, mejorando así su productividad!"
   }
 }

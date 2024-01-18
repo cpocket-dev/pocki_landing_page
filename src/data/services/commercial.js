@@ -14,20 +14,20 @@ export function GetCommercial() {
         {
             id: 2, 
             img: "/assets/card-img2.webp",
-            title: "Agendamientos y Recordatorios de Citas", 
+            title: "Agendamientos y Confirmacion de Citas", 
             text: t("data.commercial.card2.texto"), 
             link: ""
         },
         {
             id: 3, 
             img: "/assets/card-img1.webp",
-            title: "Descargas de Informacion", 
+            title: "Informes Automatizados para Descarga", 
             text: t("data.commercial.card3.texto"),
         },
         {
             id: 4, 
             img: "/assets/card-img2.webp",
-            title: "Comunicacion con Clientes", 
+            title: "Comunicacion con Clientes y Publico Potencial", 
             text: t("data.commercial.card4.texto"), 
         },
         {
@@ -39,7 +39,7 @@ export function GetCommercial() {
         {
             id: 6, 
             img: "/assets/card-img1.webp",
-            title: "Opreaciones Internas y Externas", 
+            title: "Opreaciones de Eficiencia Internas y Externas", 
             text: t("data.commercial.card5.texto"), 
         }
     ];

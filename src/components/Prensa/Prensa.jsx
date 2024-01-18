@@ -22,7 +22,7 @@ export const Prensa = () => {
         >
           Prensa
         </h2>
-        <div className="info overflow-visible gap-10 flex-col lg:flex-col my-auto flex items-center content-center justify-center pb-4 lg:w-[90vw]">
+        <div className="info overflow-visible gap-10 flex-col lg:flex-col my-auto flex items-center content-center justify-center pb-4 lg:w-[80vw]">
           <div className="md:min-w-[23rem] flex flex-col mx-auto items-center overflow-hidden justify-center content-center w-[full]">
             <h2
               className="font-extrabold text-green-500 w-full mb-4 text-2xl md:text-3xl md:px-8 text-center overflow-hidden"
@@ -36,11 +36,13 @@ export const Prensa = () => {
           <div className="w-full relative justify-center overflow-visible items-center content-center h-max flex flex-wrap gap-4">
             {articles.map((article, index) => (
               <a
-                className="article-cont w-[95vw] xs:w-[70vw] sm:w-[46vw] md:w-[40vw] lg:w-[30%] h-max text-center flex flex-col justify-center items-center content-center gap-2 p-4 rounded-xl shadow-md border-t-2 border-green-500 overflow-visible"
+                className="article-cont w-[95vw] xs:w-[70vw] sm:w-[46vw] md:w-[40vw] lg:w-[30%] h-max text-center flex flex-col justify-center items-center content-center gap-2 p-4 rounded-xl shadow-2xl bg-white border-t-2 border-green-500 overflow-visible"
                 key={index}
                 href={`${article.link}`}
                 target="_blank"
                 rel="noopener noreferrer"
+                data-aos="fade-left"
+                data-aos-once="true"
               >
                 <p className="article-text w-full h-[5rem] flex justify-center items-center content-center font-bold">{article.info}</p>
 

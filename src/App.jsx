@@ -15,13 +15,13 @@ function App() {
       <Header />
       <Inicio />
       <section className="w-screen h-max my-12 overflow-visible flex flex-col justify-center items-center content-center">
-        <div className="bg-">
+
           <Conocenos />
           <Servicios />
           <Prensa />
-        </div>
+          <Equipo />
+
       </section>
-      <Equipo />
       <Footer />
     </>
   );

@@ -36,9 +36,9 @@ export function Equipo() {
               return (
                 <div
                   key={index}
-                  className="hover:translate-y-2 hover:scale-105 member-card-cont rounded-xl w-[15rem]"
+                  className="hover:translate-y-2 hover:scale-105 member-card-cont rounded-xl w-[90%] xs:w-[80vw] md:w-[15rem]"
                 >
-                  <div className={`member-card${index} shadow-2xl rounded-xl  overflow-hidden w-full flex flex-col justify-center items-center content-center pt-4 px-2`}>
+                  <div className={`member-card${index} shadow-2xl rounded-xl overflow-hidden w-full flex flex-col justify-center items-center content-center pt-4 px-2`}>
                     <div
                       className={`leader${index} z-[${index}] leader bg-white bg-opacity-10 rounded-full bg-contain bg-center h-[13rem] mb-[1rem] mt-[1rem] w-[13rem] flex justify-center items-center bg-no-repeat`}
                     ></div>

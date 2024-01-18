@@ -2,76 +2,74 @@
   "data": {
     "dataCards": {
       "card1": {
-        "titulo": "Transactions",
-        "texto": "We facilitate transactions like transfers, top-ups, membership purchases, sports betting, certificates, and more, all through Whatsapp."
+        "titulo": "Transacciones",
+        "texto": "Facilitamos transacciones como transferencias, recargas, compra de membresias, apuestas deportivas, certificados y más, todo desde Whatsapp."
       },
       "card2": {
-        "titulo": "Commercial Services",
-        "texto": "We handle marketing and communication strategies to connect with specific audiences at events such as launches and offers."
+        "titulo": "Servicios Cormerciales",
+        "texto": "Nos encargamos de estrategias de marketing y comunicación para conectar con audiencias específicas en eventos como lanzamientos y ofertas."
       },
       "card3": {
-        "titulo": "Assistance Services",
-        "texto": "Pocki resolves frequently asked questions about your business model and facilitates interaction with customers through “more human” conversations efficiently 24/7."
+        "titulo": "Servicios Asistenciales",
+        "texto": "Pocki resuelve preguntas frecuentes de su modelo de negocio y facilita la interacción con clientes con conversaciones “más humanas” de manera eficiente 24/7."
       },
       "card4": {
-        "titulo": "Operational Efficiency",
-        "texto": "We offer our technological expertise to address business needs. We assess and propose tailored solutions."
+        "titulo": "Eficiencia Operacional",
+        "texto": "Ofrecemos nuestra experiencia tecnológica para abordar las necesidades empresariales. Evaluamos y proponemos soluciones a medida."
       }
     },
     "commercial": {
       "card1": {
-        "titulo": "Public Services",
-        "texto": "You will only need a photo of the barcode or payment reference of your public services bill."
+        "titulo": "Servicios Públicos",
+        "texto": "Solo necesitarás foto del código de barras o referencia de pago de tu factura de servicios públicos."
       },
       "card2": {
-        "titulo": "Pin Purchase",
-        "texto": "You can choose from a wide variety of pins that we have for you."
+        "titulo": "Compra de pines",
+        "texto": "Podrás escoger entre una gran variedad de pines que tenemos para tí."
       },
       "card3": {
-        "titulo": "Mobile Recharges",
-        "texto": "Easily recharge your mobile phone anytime and anywhere you want."
+        "titulo": "Recargas Móviles",
+        "texto": "Recarga fácilmente tu celular en cualquier momento y lugar que desees."
       },
       "card4": {
-        "titulo": "Online Shopping",
-        "texto": "Make secure online purchases with our virtual cards."
+        "titulo": "Compras en línea",
+        "texto": "Realiza compras seguras en línea con nuestras tarjetas virtuales."
       },
       "card5": {
-        "titulo": "Money Transfer",
-        "texto": "Send money to your loved ones quickly and securely."
+        "titulo": "Envío de dinero",
+        "texto": "Envía dinero a tus seres queridos de forma rápida y segura"
       }
     }
   },
   "header": {
     "logoAlt": "pocki logo",
     "nav": {
-      "inicio": "home",
-      "servicios": "services",
-      "conocenos": "about us",
-      "nosotros": "our team",
-      "contacto": "contact"
+      "inicio": "inicio",
+      "servicios": "servicios",
+      "conocenos": "conócenos",
+      "nosotros": "nuestro equipo",
+      "contacto": "Contacto"
     },
-    "contador": "interactions"
+    "contador": "interacciones usuarios"
   },
   "inicio": {
-    "titulo": "Pocki, Your Trusted Virtual Assistant",
-    "subtitulo": "meet your future assistant",
-    "texto": ", discover the true potential of",
-    "textoSpan1": "Easy to use",
-    "textoSpan2": "Artificial Intelligence.",
-    "cta": "Chat with Pocki"
+    "titulo": "Pocki, Tu asistente virtual de confianza",
+    "subtitulo": "conoce tu futuro asistente",
+    "texto": ", descubre el verdadero potencial",
+    "textoSpan1": "Fácil de manejar",
+    "textoSpan2": " de la Inteligencia Artificial.",
+    "cta": "Chatea con Pocki"
   },
   "conocenos": {
-    "nombreSeccion": "About Us",
-    "titulo": "Comfort, Personalization, and Exceptional Service:",
-    "tituloSpan": "Your Unique Experience",
-    "texto": "Pocki not only performs financial operations but also offers a range of services based on its constant learning of your preferences and behaviors. It's about comfort, personalization, service, and exceptional assistance."
+    "nombreSeccion": "QUÉ TENEMOS PARA TÍ",
+    "titulo": "Comodidad, personalización y servicio excepcional:",
+    "tituloSpan": "Tu experiencia única",
+    "texto": "Pocki no solo realiza operaciones financieras, sino que también ofrece un conjunto de servicios basados en su aprendizaje constante de sus preferencias y comportamientos. Se trata de comodidad, personalización, servicio y asistencia excepcional"
   },
   "servicios": {
-    "nombreSeccion": "Services",
-    "titulo": "We invite you to learn about the facilities that",
-    "tituloSpan": "Pocki brings for you",
-    "texto": "Our virtual assistant offers efficiency and precision in daily tasks, scheduling appointments, reminders, and much more, thus improving your productivity!",
-    "wrapper1": "Commercial",
-    "wrapper2": "Assistencial"
-}
+    "nombreSeccion": "CÓMO FACILITAMOS TU VIDA",
+    "titulo": "Te invitamos a conocer las facilidades que",
+    "tituloSpan": "Pocki trae para tí",
+    "texto": "Nuestro asistente virtual ofrece eficiencia y precisión en tareas diarias, programación de citas, recordatorios y mucho más, mejorando así su productividad!"
+  }
 }

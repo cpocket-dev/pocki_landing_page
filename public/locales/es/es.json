@@ -50,7 +50,7 @@
       "nosotros": "nuestro equipo",
       "contacto": "Contacto"
     },
-    "contador": "interacciones"
+    "contador": "interacciones usuarios"
   },
   "inicio": {
     "titulo": "Pocki, Tu asistente virtual de confianza",
@@ -61,13 +61,13 @@
     "cta": "Chatea con Pocki"
   },
   "conocenos": {
-    "nombreSeccion": "Conócenos",
+    "nombreSeccion": "QUÉ TENEMOS PARA TÍ",
     "titulo": "Comodidad, personalización y servicio excepcional:",
     "tituloSpan": "Tu experiencia única",
     "texto": "Pocki no solo realiza operaciones financieras, sino que también ofrece un conjunto de servicios basados en su aprendizaje constante de sus preferencias y comportamientos. Se trata de comodidad, personalización, servicio y asistencia excepcional"
   },
   "servicios": {
-    "nombreSeccion": "Servicios",
+    "nombreSeccion": "CÓMO FACILITAMOS TU VIDA",
     "titulo": "Te invitamos a conocer las facilidades que",
     "tituloSpan": "Pocki trae para tí",
     "texto": "Nuestro asistente virtual ofrece eficiencia y precisión en tareas diarias, programación de citas, recordatorios y mucho más, mejorando así su productividad!"

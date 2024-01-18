@@ -1,7 +1,8 @@
 import { FaInstagram, FaLinkedin, FaPhone } from "react-icons/fa";
 import "./Footer.css";
 import React from "react";
-import { ContactModal } from "./ContactModal";
+import { Modal } from "../../utils/Modal";
+import { ContactForm } from "./ContactForm";
 
 export const Footer = () => {
   return (
@@ -37,7 +38,7 @@ export const Footer = () => {
             <p className="w-full text-center">
               7D Street, #43A-40, Office 5-107
             </p>
-            <p className="w-full text-center">El Poblado, Antioquia, 050021</p>
+            <p className="w-full text-center">Medellín, Colombia, 050021</p>
           </div>
           <div className="divider h-[1px] w-[65%] sm:h-[6rem] sm:w-[1px] bg-zinc-400"></div>
           <div className="flex flex-col w-1/2 gap-2">
@@ -60,7 +61,9 @@ export const Footer = () => {
               Privacy Politics
             </a>
             <div className="w-[1px] bg-white" />
-            <ContactModal />
+            <Modal title={'Contactanos'} body={'Contact Us'} >
+              <ContactForm />
+            </Modal>
           </div>
           <p className="sm:w-1/2 sm:text-center">© 2024 All Rights Reserved</p>
         </div>
